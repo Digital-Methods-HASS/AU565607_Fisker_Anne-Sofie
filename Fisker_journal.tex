@@ -1,0 +1,278 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Digital Methods: Learning Journal}
+\author{Anne-Sofie K. Fisker}
+\date{Autumn 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Today's Date}
+\subsection{Thoughts / Intentions}
+\subsection{Action}
+\subsection{Results}
+\subsection{Final Thoughts}
+
+\pagebreak{}
+
+\section{31/10/2019}
+\subsection{Thoughts / Intentions}
+
+\textbf{11:30am}: Michele and I sat down to make the homework for next week. I hope we will be able to solve it without too many tears as it would be nice to start this part of the course with a success experience.
+
+\subsection{Action}
+We started with the first task where we had to finish the Regex exercises number 3 and 4. \vspace{5mm}
+\newline \textbf{Task nr. 3) Regular expression:} \newline 
+In exercise number 3 we had to convert a Voyant stopword list into a R stopword list. In R the stopword list is formatted as a block of comma separated words which is enclosed in quotations while the stopword list in Voyant is formatted with one word on each line without any quotations. To convert the stopword list from the Voyant format to the R format we used the online program regex101. After trying to solve it on our own using "Quick Reference" and knowledge from class and still failing to solve the problem we tried searching for a solution on google instead. By searching on google we found at method and it work. However it was quite a long regular expressions and be looking at the "Quick Reference" - now with the method we found online as some sort of guideline - we found a shorter regular expression with the same effect. In the "Regular Expression" line we wrote:
+\begin{center}
+    ([a-z,æ,ø,å,é].+)[backslash n]
+\end{center}
+and in the substitution line we wrote:
+\begin{center}
+    (\$1)
+\end{center}
+This deals with all the words but not the numbers. To fix this we wrote: 
+\begin{center}
+    (backslash d)[backslash n]
+\end{center}
+and then
+\begin{center}
+    "\$1"
+\end{center}
+This gaves us the final stopword list. \newline \vspace{5mm}
+
+\textbf{Task nr. 4) Regular expression:} \newline
+In exercise number 4 we had to convert a R stopword list into a Voyant stopword list. We tried to make a regular expression which would convert the stopword list to the correct format in one go but we couldn't figure out how. Therefore, we decided to go step by step instead. First we removed all the quotations by typing (") in the "Regular Expression" box and the copy and pasting the text from under the "Substitution" into the "Test String" box. Then we removed all the commas by typing (,) just as in the case with the quotation. After copy and pasting the new text into the "Test String" box we wrote (backslash s) in the "Regular Expression" box to mark all the spaces and then wrote "dollar sign one square brackets reverse n" in the "Substitution" box. This gave us a stopword list with a format that match Voyant.
+
+
+\subsection{Results}
+Task 3) \newline
+https://regex101.com/r/QaQLi3/1?fbclid=IwAR3tsVkrnh8rA1Mf1SQVgUhbkoNg_rqS7QsBlEgraM8ltbMYwmb3mm_mj48 \newline
+Task 4) \newline 
+https://regex101.com/r/DJNnMS/1?fbclid=IwAR0jqM1bMRZi0nvK81rFbMehos5uP7c42zVsp014X07NYCFueCVmSAlYw4T8
+
+\subsection{Final Thoughts}
+\textbf{01:42pm}: We finely finished task number 3 and 4. It took a bit more time than expected but we made it.  
+\pagebreak{}
+
+\section{07/11/2019}
+\subsection{Thoughts / Intentions}
+Today I have started working on my exam project meaning that I have developed an idea about what I might work with. The plan is somehow to wort with the Danish School Laws database Max presented last Monday. First my idea was to copy all dates and names of the different laws in the database into a table and then use it to make some kind of (visual) overview over how the laws are spread across the time span covered in the database, which education area the laws cover, and so on. The aim was an still is to say something about how the laws numerically have developed over time. I wrote to Adela to hear her opinion about the topic and got the answer that it sounded like a promising project but she had a few suggestions. She said that instead of copy-pasting the data into a table a part of the exam project could be to develop a digital workflow to extract and transform the data from the Danish School Laws database to create a clean table that could form a basis for a historical time-series for legal framework of schooling i Denmark. She wrote that this is a significant technical task and that it could be followed by a creation of a time-series of laws affecting schooling and some sort of discussion of the results in a historical context, e.g. whether or not these laws are reactions to some political thresholds at danish or European level.
+
+\subsection{Action}
+Before getting the answer from Adela I had already started working a bit. I have included the work here even though I am not sure that I will use it after Adela's answer.
+
+I worked on it rather experimental and started by searching on "Folkeskole" in the "Undervisningsområde" box, "Lov" in the "Dokumenttype" box and "alle" in the date box just to get started. The i copy-pasted the search result into Excel and saved the file as an Excel file under the name "Forsøg". I would like to work with the data in OpenRefine but first I had to fix some problems with the dates. In OpenRefine I would like to have a columm for the day, one fore the month and one for the year. According to Excel there are 285 documents but they are not identical formatted. Therefore i copy-pasted the data into Regex101. First I made sure that all the dates followed the same format by typing:
+\begin{center}
+    (backslash d+).(backslash d+).(backslash d \{4\})
+\end{center}
+into the "Regular Expression" box. This gave 280 results. In the "Substitution" box. I then wrote
+\begin{center}
+    \$1@\$2@\$3 
+\end{center}
+to replace the dots and dashes in the dates with a symbol that does not appear in the text. I then copied the text in the box under the substitution box into the box under the "Regular Expresssion" box. I then wanted to make sure that the dates wich only includes a year get sorted into the correct columm in OpenRefine. Therefore I type in:
+\begin{center}
+    (backslash d+).(backslash d+)(backslash d{4})
+\end{center}
+This gave 6 results leaving the end number of corrected dates at 280.
+and in the Substitution box I wrote: 
+\begin{center}
+    backslash n@@\$1
+\end{center}
+I then create a project in OpenRefine by copying the text from Regex101 into Openrefine under Clipboard. The I split the date into three columns separating the by using the @. Then I saved a copy of the OpenRefine data. That was it for today. \newline \vspace{2mm}
+
+Later added comment: commend added 14/11/2019: This manuel copy-pasting of the data to about 3-3.5 hours including figuring out how which regular expressions I had to use and writing the learning journal.
+\pagebreak{}
+
+\section{14/11/2019}
+\subsection{Thoughts / Intentions}
+Today I had a meeting with Adela. Before I went, I wrote this about the status of my project:
+\begin{quote}
+    \textbf{12.00} Right now may project revolves around the Danish School Laws database. I would like to extract information from this website using some sort of as Max suggest this in his presentation and as Adela wrote in her e-mail. Right now the project is to extract information/data about the name and date of all the documents concerning all the education areas and then use it to make some sort of visual overview over how the number of documents has evolved and change over time and maybe also to see how it vary across education area and document type. I would like to do the visual overview in R.
+    
+    Michele has send me a link about how to do web scraping and I have made an appointment with Max, but it's first on the 26/11. I find it a bit scary that I have work with web scraping for several reasons among these the legal aspects and the fact that if I mess it up I could end up getting other peoples system to burn down. So that is where I am right now.
+    
+    The database contains several different education areas and under each of them it is possible to search in all the documents concerning this area or select a specific type of document, e.g. Law or circular. It is possible to search for this at a specific year or through all the years, where a document exist. A free text search is possible. 
+\end{quote}
+Now writing after the meeting I have the following thoughts about my:
+\begin{enumerate}
+    \item I had just started following the instruction in the link, Michele had sent me, but Adela told me that I should just read it and get familiar with web scraping and not follow its instructions. Instead I am going to use the guidelines she expect that Max will send out.
+    \item I am probably going to use the r-package Solrium to do web scraping as I understood it. 
+    \item Adela told me to note how long it took to do the manual copy-past of the selected data on the School Laws database. I have done this now, added as a note to the description of my work in this learning journal at 07/11/2019. The point is that this makes it possible to compare how long it took to get a nice data-sheet the manual way to the more command-driven way (web scraping). 
+    \item One of the reflections I had while talking to Adela was that the risk of making the data-set the manually way (the way I had done it before the meeting which is described in the learning journal under the 07/11/2019) is that when I am copy-pasting the data back and forth there is a risk that I will miss some of it and thereby not manage to get all the data into the final data-set (altså når der kopieres en masse frem og tilbage, så er der en risiko for, at jeg en af gangene ikke får kopieret det hele og dermed mister noget data).
+    \item In connection to the final report Adela talked about WOT which was about evaluating pros and cons regarding the method used. So I have to compare the manual way and the web scraping way regarding strengths, opportunities and threats. The reflections on this could be something like that
+    \begin{enumerate}
+        \item you risk losing data when you are copy-pasting several times;
+        \item it is easier to figure out how to form at data-set on your own the manual way than using web scraping when both methods are unknown to you - at least that my experiens;
+        \item using the manual way it took quit some time just to extract the name and date of the laws concerning "Folkeskole" over the hole time span. Using web scraping I will hopefully - after learning how to use it - be able to extract the data much more quickly and be able to extract more of the data (data from all the education areas, all types of documents, and maybe not only the name and dates but also the full text of the document, which would take way to much time to do manually.
+    \end{enumerate}
+        \item Another reflection Adela told my to include in my final exam is my reflections over the legal and ethical aspects of web scraping. As I use a database provided by AU library they should be able to help me with this or maybe Max could as he works at Det kongelige bibliotek. But I am not sure which one it is.
+        \item In the final report I am going to be short of words and therefore the code (the web-scraping one I guess - maybe also the regular expressions for the manual one?) should NOT be include in the report BUT posted on my github account and then LINKED TO in my report. I THEREFORE HAVE TO MAKE SURE THAT THE THINGS I POST ON GITHUB IS PUBLIC AND NOT PRIVATE.
+        \item As said earlier Max is probably going to post a guide on how to do web scraping. This is the code in R I should use. Each time I use someone else's code I have to note it and reference to them. I also need to have permission to use it e.g. from Max (she said something with a license but I didn't quit understand it. As I'm not writing my own code, my contribution is to apply an already existing code on some data which it has not been used on before.
+        \item After extracting the data I should do some sort of descriptive statistic including how the documents are spread across the period and how many new documents appears each decade. If the number of laws suddenly rises I would have to look at the historical background for this. But regarding the historical background of the results I will have to pick and choose between what seems especially interesting as I at this point of my project won't be left with many words. Adela said that I should think of it as I had to enhance the most important points for someone like her who do not know much about the history of the danish school system.
+        \item At the end of the meeting Adela asked me if I could make a one-minute presentation of my project for the class next week. This is what I will do now.
+\end{enumerate}
+
+\subsection{Action}
+\textbf{Project presentation:} Right now may project is about extracting information about the names, dates and the full texts of the documents in the Danish School Laws database. So far I have managed to extract some information by copy-pasting and it took quit some time and only gave me the names and the dates of selected documents. Therefore I would like to use web scraping to extract even more information but in a less time-consuming way. The aim is to create a data-sheet from which it is possible to do some sort of visual overview over how the number of documents has evolved and change over time and maybe also to see how it varies across education-area and document type. I would like to do the visual overview in R.
+
+\newpage
+\section{21/11/2019}
+
+\subsection{Thoughts / Intentions}
+Changes and additions to my work form the 07/11/2019
+
+\subsection{Action}
+I discovered that there are some problems with my approach from the 07/11/2019 regarding the manual way. This concerns one of the regular expressions used in Regex100. The first expression I used makes sure that all the dates follow the same format. But the expression I use do not only format the dates of the laws but also a date inside the name of one of the laws (the one from the 28/04/1931). This is not ideal and I have therefore decided to change the regular expression. Instead of using the regular expression:
+\begin{center} (backslash d+).(backslash d+).(backslash d {4}) 
+\end{center}
+I use the following expression:
+\begin{center} enter(backslash d+).(backslash d+).(backslash d {4})
+\end{center}
+This change all the dates of the laws into the same format without changing the dates inside the names of the laws.
+
+The manual approach therefore now is as follows: Regarding the manual approach I worked rather experimental and started by searching on "Folkeskole" in the "Undervisningsområde" box, "Lov" in the "Dokumenttype" box and "alle" in the date box at https://library.au.dk/materialer/saersamlinger/skolelove/ just to get started. The i copy-pasted the search result into Excel and saved the file as an Excel file under the name "Forsøg". According to Excel there are 285 documents. In this file the dates of the laws are written differently and in the same column. This I would like to change so that the dates instead are split into three columns one listing the day, another the month and the last the year of the law. Therefore i copy-pasted the data into Regex101. First I made sure that all the dates followed the same format by typing:
+\begin{center}
+    enter(backslash d+).(backslash d+).(backslash d {4})
+\end{center}
+into the "Regular Expression" box. This gave 279 results. In the "Substitution" box I then wrote
+\begin{center}
+    backslash n\$1@\$2@\$3
+\end{center}
+to replace the dots and dashes in the dates with a symbol that does not appear in the text. I then copied the text in the box under the substitution box into the box under the "Regular Expresssion" box. I then wanted to make sure that the dates which only includes a year get sorted into the correct columm. Therefore I type in:
+\begin{center}
+    enter(backslash d{4})
+\end{center}
+This gave 6 results leaving the end number of corrected dates at 285. In the Substitution box I then wrote: 
+\begin{center}
+    $\backslash n@@\$1$
+\end{center}
+To split the dates into three columns i used OpenRefine. I  create a project in OpenRefine by copying the text from Regex101 into Openrefine under Clipboard. The project is named "Forsg2". In OpenRefine I then split the dates into the columns using @ as separator. Then I saved a copy of the OpenRefine data. I saved it as an Excel file. 
+
+This manuel copy-pasting of the data to about 3-3.5 hours including figuring out how which regular expressions I had to use and writing the learning journal.
+
+In the Excel file I renamed the columns "Dato 1" into "Dag", "Dato 2" into "Måned" and "Dato 3" into "Year". I then added to new columns naming the first "Undervisningsområde" and the second "Dokumenttype". I added the value "Folkeskolen" to all the documents under "Undervisningsområde" and "Lov" under "Dokumenttype". The file is still saved as "Forsg2".
+\newpage
+
+\section{24/11/2019}
+\subsection{Thoughts / Intentions}
+The plan for today is to finish the homework for Monday (week 5).
+
+\subsection{Action}
+\textbf{Exercises - lesson 2} \newline
+\begin{enumerate}
+    \item \textbf{2.1)} What do you think is the current content of the object area$\_$acres?  123.5 or 6.175? \textbf{Solution:} The value is still 6.175 as the value of acrea$\_$acres has not been changed since the command that defines it values has not been rerun since the change of the value of area$\_$hectares.
+    \item \textbf{2.2) }Create two variables length and width and assign them values. It should be noted that R Studio might add “()” after width and if you leave the parentheses you will get unexpected results. This is why you might see other programmers abbreviate common words. Create a third variable area and give it a value based on the current values of length and width. Show that changing the values of either length and width does not affect the value of area.\textbf{Solution}: To create a length variable I wrote:
+        \begin{center}
+             length $\leftarrow 5$
+        \end{center}
+    I followed the same approach to create a width variable:
+        \begin{center}
+            width $\leftarrow$10
+        \end{center}
+    To create an area variable i wrote the following:
+        \begin{center}
+            area $\leftarrow$length*width 
+        \end{center}
+    The value of the variable area can be inspected using the following command:
+        \begin{center}
+            area 
+        \end{center}
+    \item \textbf{2.3) }Type in ?round at the console and then look at the output in the Help pane. What other functions exist that are similar to round? How do you use the digits parameter in the round function? \textbf{Solution: }using the help function, which appears when you type in ?round, I found out that another similar function is signif and that using digits enables you to decide how many digits a given number has to contain.
+    \item \textbf{2.4)} 
+    \begin{enumerate}
+        \item \textbf{2.4.1}We’ve seen that atomic vectors can be of type character, numeric (or double), integer, and logical. But what happens if we try to mix these types in a single vector? \textbf{Solution:} If you create a vector which contains both numbers and characters, it saves them all as characters. It coerces the data into the only thing both number and characters can be as numbers can be characters but characters can't be numbers. 
+       \item \textbf{2.4.2:} What will happen in each of these examples? (hint: use class() to check the data type of your objects). \textbf{Solution:}
+         \begin{center}
+            num$\_$char $\leftarrow$ c(1, 2, 3, "a") = Character \newline
+            num$\_$logical $\leftarrow$ c(1, 2, 3, TRUE) = Numeric/double\newline
+            char$\_$logical$\leftarrow$ c("a", "b", "c", TRUE) = Character \newline 
+            tricky $\leftarrow$ c(1, 2, 3, "4") = Character 
+        \end{center}
+      Why do you think it happens? \textbf{Solution:} It transforms the vector into the type which all the entries are capable of being. \newline
+      \item \textbf{2.4.3:}How many values in combined$\_$logical are "TRUE" (as a character) in the following example:
+        \begin{center}
+          num$\_$logical $\leftarrow$ c(1, 2, 3, TRUE) \newline 
+          char$\_$logical $\leftarrow$ c("a", "b", "c", TRUE) \newline
+          combined$\_$logical $\leftarrow$ c(num$\_$logical, char$\_$logical)
+        \end{center}
+      \textbf{Solution:} one, as the TRUE in num$\_$logical is turned into a number (number one).
+      \item \textbf{2.4.4:}You’ve probably noticed that objects of different types get converted into a single, shared type within a vector. In R, we call converting objects from one class into another class coercion. These conversions happen according to a hierarchy, whereby some types get preferentially coerced into other types. Can you draw a diagram that represents the hierarchy of how these data types are coerced? \textbf{Solution:} All the data types can be transformed into characters but not the other way around. Logicals can be transformed into numbers but not the other way around. 
+    \end{enumerate}
+    \item \textbf{2.5)}
+    \begin{enumerate}
+        \item \textbf{2.5.1)} Using this vector of rooms, create a new vector with the NAs removed. rooms $\leftarrow$ c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1). \textbf{Solution:}
+\begin{center}
+rooms$\_$uden$\_$na $\leftarrow$ rooms[!is.na(rooms)] \newline
+\end{center}
+Inspecting it using 
+\begin{center}
+View(rooms$\_$uden$\_$na) 
+\end{center}
+or
+\begin{center}
+  anyNA(rooms$\_$uden$\_$na)  
+\end{center}
+    \item \textbf{2.5.2) }Use the function median() to calculate the median of the rooms vector. \textbf{Solution:} mean(rooms, na.rm=TRUE)
+    \item \textbf{2.5.3) }Use R to figure out how many households in the set use more than 2 rooms for sleeping.\textbf{Solution:} 
+    \begin{center}
+       rooms$\_$above$\_$2 $\leftarrow$ rooms$\_$uden$\_$na[rooms$\_$uden$\_$na $>$ 2] \newline 
+       length(rooms$\_$above$\_$2)\newline \vspace{2mm} 
+    \end{center}
+    \end{enumerate}
+\end{enumerate}
+
+\textbf{Lesson 3 - exercises:} \newline
+\begin{enumerate}
+    \item \textbf{3.1)}
+    \begin{enumerate}
+        \item \textbf{3.1.1)} Create a data frame (interviews$\_$100) containing only the data in row 100 of the interviews dataset.\textbf{Solution:} to do this I first import the interviews data set into R. I do this by typing: 
+\begin{center}
+    interviews $\leftarrow$read.csv2("data/Redigeret.csv")
+\end{center}
+Then I created a data frame containing only the data in row 100 by typing:
+\begin{center}
+  interviews100 $\leftarrow$interviews[100, ]  
+\end{center}
+    \item \textbf{3.1.2)} Notice how nrow() gave you the number of rows in a data frame? 
+    \begin{enumerate}
+        \item \textbf{3.1.2.1)} Use that number to pull out just that last row in the data frame. \textbf{Solution:}
+\begin{center}
+    nrow(interviews)
+\end{center}
+\begin{center}
+interviews$\_$last $\leftarrow$interviews[131, ]   
+\end{center}
+    \item \textbf{3.1.2.2)} Compare that with what you see as the last row using tail() to make sure it’s meeting expectations. \textbf{Solution:} I have compared them and it does.
+    \item \textbf{3.1.2.3)} Pull out that last row using nrow() instead of the row number. \textbf{Solution:} Regarding exercise number 3.1.2.3 and 3.1.2.4 I was rather confused so I used the solutions as a guideline and the it maked more sense.
+\begin{center}
+n$\_$rows $\leftarrow$nrow(interviews)
+\end{center}
+    \item \textbf{3.1.2.4)} Create a new data frame (interviews$\_$last) from that last row.\textbf{Solution:}
+\begin{center}
+  interviews$\_$last2 $\leftarrow$interviews[n$\_$rows, ]  
+\end{center}
+    \end{enumerate}
+    \item \textbf{3.1.3)} Use nrow() to extract the row that is in the middle of the data frame. Store the content of this row in an object named interviews$\_$middle.\textbf{Solution:}
+\begin{center}
+ interviews$\_$middle $\leftarrow$ interviews[(n$\_$rows / 2), ]   
+\end{center}
+    \item \textbf{3.1.4) }Combine nrow() with the - notation above to reproduce the behavior of head(interviews), keeping just the first through 6th rows of the interviews data-set. \textbf{Solution:} Again I used the solution as a guideline
+\begin{center}
+    interviews$\_$head <- interviews[-(7:n$\_$rows), ]
+\end{center}
+    \end{enumerate}
+\end{enumerate}
+
+\newpage
+\section{26/11/2019}
+\subsection{Thoughts / Intentions}
+\subsection{Action}
+Se onenote
+\subsection{Results}
+\subsection{Final Thoughts}
+
+
+\end{document}

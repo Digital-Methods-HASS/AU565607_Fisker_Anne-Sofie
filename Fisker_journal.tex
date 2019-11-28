@@ -274,5 +274,62 @@ Se onenote
 \subsection{Results}
 \subsection{Final Thoughts}
 
+\newpage
+\section{28/11/2019}
+\subsection{Thoughts / Intentions}
+My plan is to do the homework in R for next week.
+
+\subsection{Action}
+\textbf{The category of the exercise:} Split-apply-combine data analysis and the summarize() function
+
+\textbf{Exercises 1)} \newline
+\textbf{1.1) Question: How many households in the survey have an average of two meals per day? Three meals per day? Are there any other numbers of meals represented?} \newline
+\textbf{Solution:}
+My solution: 
+\begin{center}
+    interviews $\%$\textgreater$\%$
+\end{center}
+\begin{center}
+filter(no\_meals==2)    
+\end{center}
+Answer = 52 households have an avergage of two meals per day.\newline 
+
+The solution on the site:
+\begin{center}
+    interviews $\%$\textgreater$\%$
+\end{center}
+\begin{center}
+     count(no\_meals)
+\end{center}
+ 
+The solution used by the site seems much better as it at the same time gives the number both for two and three meals and show that there are not other numbers of meals represented.
+
+\textbf{1.2) Question: Use group\_by() and summarize() to find the mean, min, and max number of household members for each village. Also add the number of observations (hint: see ?n)}\newline
+I started by looking up what "n" does
+\begin{center}
+    ?n
+\end{center}
+Then I found the answer by typing in the following:
+\begin{center}
+    interviews $\%$\textgreater$\%$\newline
+    group\_by(village) $\%$\textgreater$\%$\newline
+  summarize(\newline
+    mean\_no\_membrs = mean(no\_membrs),\newline
+    min\_no\_membrs = min(no\_membrs),\newline
+    max\_no\_membrs = max(no\_membrs),\newline
+    n = n()\newline
+  )
+\end{center}
+
+\textbf{1.3) Question: What was the largest household interviewed in each month?}\newline
+I looked at the data set and since the month still stood in the same column as the rest of the information about the dates I did not know how to answer the question. Therefore I used the solution as a guideline:\newline
+library(lubridate)\newline
+interviews $\%$\textgreater$\%$\newline
+  mutate(month = month(interview\_date),\newline
+         day = day(interview\_date),\newline
+         year = year(interview\_date)) $\%$\textgreater$\%$\newline
+  group\_by(year, month) $\%$\textgreater$\%$\newline
+  summarize(max\_no\_membrs = max(no\_membrs))\newline
+
 
 \end{document}

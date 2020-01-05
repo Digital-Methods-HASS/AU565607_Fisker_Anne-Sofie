@@ -1,0 +1,512 @@
+årcount = rep(NA,520)
+for (i in år){
+årcount[i-1499] = sum(prøvedata == i)
+}
+plot(år,årcount, type = "l")
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  100)
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  3)
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  2)
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  50)
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  30)
+#####
+ggplot(data = prøvedata, aes(x=År)) + geom_histogram(binwidth =  3)
+test = data.frame("År" = test)
+ggplot(data = test, aes(x=År)) + geom_bar()
+plot(test, type="h")
+år = seq(1500,2019, by = 1)
+årcount = rep(NA,520)
+for (i in år){
+årcount[i-1499] = sum(prøvedata == i)
+}
+plot(år,årcount, type = "l")
+prøve <- str_replace(date_ymd_dato, pattern = "(\\d{4})\\W(\\d{2})\\W(\\d{2})", "\\1" )
+prøvedata = data.frame("År" = as.numeric(prøve))
+# Kurve
+år = seq(1500,2019, by = 1)
+årcount = rep(NA,520)
+for (i in år){
+årcount[i-1499] = sum(prøvedata == i)
+}
+plot(år,årcount, type = "l")
+?plot
+plot(år,årcount, type = "s")
+plot(år,årcount, type = "l")
+plot(år,årcount, type = "l",
+main = "Number of legislative documents connected to the education area in Denmark fra 1521-2019",
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main = "Number of legislative documents connected to the education area in Denmark fra 1521-2019",
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l","Number of legislative documents connected to the education area in Denmark fra 1521-2019",
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l"),
+title("Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l"),
+title("Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l"),
+title("Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l"),
+title("Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+"Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+"Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l"), title(
+"Number of legislative documents connected to the education area in Denmark fra 1521-2019")
+plot(år,årcount, type = "l") + labs(title="Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l") + labs(title="Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main = "Number of legislative documents connected to the education area in Denmark fra 1521-2019"),
+xlap = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main = "Number of legislative documents connected to the education area in Denmark fra 1521-2019")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",
+xlab = Year, ylab = Quantity)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",
+xlab = "Year", ylab = "Quantity")
+"Visual overview" <- plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",
+xlab = "Year", ylab = "Quantity")
+?jpeg()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in the education area in Denmark fra 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents \nin the education area in Denmark fra 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents connected to the education area in Denmark from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents connected to the education area \nin Denmark from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents connected to\n the education area in Denmark from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents connected \nto the education area in Denmark from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents connected \nto the education area in Denmark \nfrom 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area in Denmark \nfrom 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area \nfrom 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+jpeg(filename = "Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+jpeg(filename = "Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+?jpeg()
+savePlot("output_data/", filename = "Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+png(file="output_data/Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+png(file="output_data/Visual_overview", width = 500, height = 432, units = "px", pointsize = 12)
+dev.off()
+jpeg(filename = "Visual_overview", width = 500, height = 432)
+jpeg(filename = "Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg("output_data/", filename = "Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+?jpeg()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 479, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality =50)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality =80)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+år = seq(1500,2019, by = 1)
+årcount = rep(NA,520)
+for (i in år){
+årcount[i-1499] = sum(prøvedata == i)
+}
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+pdf(filename = "output_data/Visual_overview", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+pdf(filename = "output_data/Visual_overview.pdf", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+pdf(filename = "output_data/Visual_overview.pdf", width = 500, height = 432)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+?jpeg()
+jpeg(filename = "output_data/Visual_overview.pdf", width = 500, height = 432, quality = 90)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 90)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 100)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 1)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", main =
+"Number of legislative documents in \nthe education area from 1521-2019",
+xlab = "Year", ylab = "Quantity")
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+?plot
+install.packages("extrafont")
+library(extrafont)
+font_import()
+fonts()
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity") + theme(text=element_text(family="Times New Roman", face="bold", size=12))
+install.packages("extrafont")
+library(extrafont)
+font_import()
+fonts("Times New Roman")
+font_import()
+fonts("Times New Roman")
+library(extrafont)
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity") + theme(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity", theme(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity") theme(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity", text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity", par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity", par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity", par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity", par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity") par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity"), (par(c(text=element_text(family="Times New Roman", face="bold", size=12))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+install.packages("extrafont")
+library(extrafont)
+font_import()
+fonts()
+install.packages("extrafont")
+library(extrafont)
+font_import()
+fonts()
+fonts(Times New Roman)
+fonts("Times New Roman")
+font_import()
+fonts("Times New Roman")
+windowsFonts(A = windowsFont("Times New Roman"))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+#####
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity",  family="A",)
+windowsFonts(A = windowsFont("Times New Roman"))
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity",  family="A",)
+#####
+#####
+windowsFonts(Times=windowsFont("Times New Roman"))
+windowsFonts(
+A=windowsFont("Arial Black"),
+B=windowsFont("Bookman Old Style"),
+C=windowsFont("Comic Sans MS"),
+D=windowsFont("Symbol")
+windowsFonts(
+A=windowsFont("Arial Black"),
+B=windowsFont("Times New Roman"),
+C=windowsFont("Comic Sans MS"),
+D=windowsFont("Symbol")
+)
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75,family="Times")
+plot(år,årcount, type = "l", xlab = "Year", , ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75,family="Times")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75,family="serif")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+dev.off()
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75,family="times")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+dev.off()
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity")
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity", family = serif)
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity", family = "serif")
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity",family = "serif")
+dev.off()
+# Removing objects
+rm(list=ls())
+# Installing packages
+install.packages("rvest")
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("tidytext")
+# Loading packages from library
+library(rvest)
+library(tidyverse)
+library(lubridate)
+library(tidytext)
+# Test of data-import and xpath
+#Reading file no. 7
+file_seven <- read_html("clean_data/0007.html")
+#Saving the xpath capturing the date
+xp_dato ='//*[@id="c62764"]/div/div[2]/div[1]/div[2]'
+# Extracting the date
+file_seven %>%
+html_nodes(xpath = xp_dato) %>%
+html_text
+#Saving the xpath capturing the title
+xp_titel ='//*[@id="c62764"]/div/div[2]/div[3]/div[2]'
+# Extracting the title
+file_seven %>%
+html_nodes(xpath = xp_titel) %>%
+html_text
+# Import of data
+filenames <- list.files("./clean_data/", full.names = TRUE)
+# Extracting the date and title from all html-files
+title <- c()
+date <- c()
+for(chr in filenames){
+print(paste(chr))
+chr %>%
+read_html() %>%
+html_nodes(xpath = '//*[@id="c62764"]/div/div[2]/div[3]/div[2]') %>%
+html_text() -> titel
+title <- append(title, titel)
+chr %>%
+read_html() %>%
+html_nodes(xpath = '//*[@id="c62764"]/div/div[2]/div[1]/div[2]') %>%
+html_text() -> dato
+date <- append(date, dato)
+}
+# Removing file no. 1690 (row 1611) as it is identical to file no. 1828
+date1 = date[-1611]
+title1 = title[-1611]
+danish_school_laws1 <- tibble(dato = date1, "Title of the document" = title1)
+# Changing the date of file no. 0040 (row 31)
+date1[31] = "29-03-1867"
+# Changing the dates noted as year-month-date to a day-month-year format
+date_dmy <- str_replace(date1, pattern = "^(\\d{4})-(\\d{2})-(\\d{2})","\\3-\\2-\\1" )
+danish_school_laws2 <- tibble(dato = date_dmy, "Title of the document" = title1)
+# Adding "01-01" to dates containg only the year of the law
+date_dmy_alle <- str_replace(date_dmy, pattern = "^(\\d{4})", "01-01-\\1" )
+danish_school_laws3 <- tibble(dato = date_dmy_alle, "Title of the document" = title1)
+# Changing the format of the dates from day-month-year to year-month-day
+date_ymd <- str_replace(date_dmy_alle, pattern = "^(\\d{2})\\W(\\d{2})\\W(\\d{4})", "\\3-\\2-\\1" )
+danish_school_laws4 <- tibble(Dato = date_ymd, "Title of the document" = title1)
+# Coercing the dates from characters into dates
+date_ymd_dato <- ymd(date_ymd)
+danish_school_laws5 <- tibble("Dato (Date)" = date_ymd_dato, "Dokumenttitel (Title of the document)" = title1)
+# Checking to see if there are any missing values
+anyNA(danish_school_laws5)
+# Printing the danish_school_laws5 data-frame to a csv-file
+write.csv(danish_school_laws5,"output_data/Danish_school_laws_csv.csv",row.names = FALSE)
+write.csv2(danish_school_laws5,"output_data/Danish_school_laws_csv2.csv",row.names = FALSE)
+## Creating a plot view the number of documents per year
+# Deleting day and month from the dates of the documents
+year <- str_replace(date_ymd_dato, pattern = "(\\d{4})\\W(\\d{2})\\W(\\d{2})", "\\1" )
+# Creating a value consisting of the year-values as numeric
+year_data = data.frame(as.numeric(year))
+# For loop counting how many times each year appears in the data
+year_seq = seq(1500,2019, by = 1)
+year_count = rep(NA,520)
+for (i in year_seq){
+year_count[i-1499] = sum(year_data == i)
+}
+# Drawing the plot
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity",family = "serif")
+# Exporting the plot
+jpeg(filename = "output_data/Visual_overview", width = 500, height = 432, quality = 75)
+plot(år,årcount, type = "l", xlab = "Year", ylab = "Quantity",family = "serif")
+dev.off()
+# Removing objects
+rm(list=ls())
+# Installing packages
+install.packages("rvest")
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("tidytext")
+# Loading packages from library
+library(rvest)
+library(tidyverse)
+library(lubridate)
+library(tidytext)
+# Test of data-import and xpath
+#Reading file no. 7
+file_seven <- read_html("clean_data/0007.html")
+#Saving the xpath capturing the date
+xp_dato ='//*[@id="c62764"]/div/div[2]/div[1]/div[2]'
+# Extracting the date
+file_seven %>%
+html_nodes(xpath = xp_dato) %>%
+html_text
+#Saving the xpath capturing the title
+xp_titel ='//*[@id="c62764"]/div/div[2]/div[3]/div[2]'
+# Extracting the title
+file_seven %>%
+html_nodes(xpath = xp_titel) %>%
+html_text
+# Import of data
+filenames <- list.files("./clean_data/", full.names = TRUE)
+# Extracting the date and title from all html-files
+title <- c()
+date <- c()
+for(chr in filenames){
+print(paste(chr))
+chr %>%
+read_html() %>%
+html_nodes(xpath = '//*[@id="c62764"]/div/div[2]/div[3]/div[2]') %>%
+html_text() -> titel
+title <- append(title, titel)
+chr %>%
+read_html() %>%
+html_nodes(xpath = '//*[@id="c62764"]/div/div[2]/div[1]/div[2]') %>%
+html_text() -> dato
+date <- append(date, dato)
+}

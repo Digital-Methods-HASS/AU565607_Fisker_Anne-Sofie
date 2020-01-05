@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html class="no-js" lang="da" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2019 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="//library.au.dk/">
+
+<title>Skolelove</title>
+<meta name="generator" content="TYPO3 CMS">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_ab51983a13.css?1451983892" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.aucdn.dk/2016/assets/css/app.css" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.aucdn.dk/components/umd/all.css?v=201910031245" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/CssDemo.css?1450276232" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/au_config/css/powermail-overrides.css?1575351186" media="all">
+<link rel="stylesheet" type="text/css" href="https://customer.cludo.com/css/511/2151/cludo-search.min.css" media="all">
+
+
+
+<script src="https://unpkg.com/axios@0.18.0/dist/axios.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/dom4@2.1.3/build/dom4.js" type="text/javascript"></script>
+<script src="https://unpkg.com/es6-shim@0.35.3/es6-shim.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/react@16.6.3/umd/react.production.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/react-dom@16.6.3/umd/react-dom.production.min.js" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/2016/assets/js/vendor.js?v=201910031245" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/2016/assets/js/app.js?v=201910031245" type="text/javascript"></script>
+
+
+
+
+<link href="//cmsdesign.au.dk/design/2008/graphics/favicon.ico" rel="shortcut icon" /><meta content="AU normal contrast" http-equiv="Default-Style" /><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><meta name="google-site-verification" content="ne_jnmhsH3sYzq7Q_ZO7m0NPjedJOMjzZY6OetBV-Cg" /><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="si_pid" content="23661" /><style type="text/css">div.skl_show_header {white-space: pre-line}
+div.skl_show_header div {white-space: normal}
+div.skl_show_header input {display: block}</style><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54962810-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54962810-7');
+</script>
+
+<script src="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aul2016.js?v=4"></script>
+<link rel="stylesheet" type="text/css" href="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aulcsslegacy.css?v=2">
+<link rel="stylesheet" type="text/css" href="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aul2016.css?v=4">
+<script>
+$(document).ready(function() {
+if(document.documentElement.lang === 'da') {
+   console.log("0");
+   showFrontpageOpeninghours('DK');
+}
+else {
+   console.log("1");
+   showFrontpageOpeninghours('EN');
+}
+});
+</script>
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0023/4122.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+ 
+<script>
+    var topWarning = false;
+    var topWarningTextDa = '';
+    var topWarningTextEn = '';
+    var cludoDanishPath = '/soegning';
+    var cludoEnglishPath = '/en/site-search';
+    var primaryDanish = true;        
+</script>
+ <script>
+var cludoEngineId = 10727;
+</script><link rel="image_src" href="//www.au.dk/fileadmin/res/facebookapps/au_standard_logo.jpg" /><meta name="uuid" content="de34cb5b-f9e5-4114-9c86-614b83704097"/>
+
+
+<meta http-equiv="Last-Modified" content="2019-11-26T11:29:20+01:00"/>
+<meta http-equiv="content-language" content="da" />
+<meta name="author" content="384071@au.dk" />
+<meta name="rating" content="GENERAL" />
+<meta name="DC.Date" scheme="ISO8601" content="2019-11-26T11:29:20+01:00"/>
+<meta name="DC.Language" scheme="NISOZ39.50" content="da" />
+<meta name="DC.Creator" content="384071@au.dk" />
+<meta name="DC.Contributor" content="131997@au.dk" />
+<meta name="DC.Publisher" content="Aarhus University"/>
+<meta name="DC.Title" content="Skolelove"/>
+<meta name="DC.Type" content="text/html"/>
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+
+<!-- Pingdom hash not set -->
+
+
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/lf_skolelov/skolelov.css">
+
+			<script>
+				function resetForm(){
+
+					document.getElementById("type").selectedIndex = 0;
+					document.getElementById("lawtype").selectedIndex = 0;
+					document.getElementById("date").selectedIndex = 0;
+					document.getElementById("text").value = "";
+				}
+			</script>
+		
+</head>
+<body class="department layout15 level3">
+
+
+
+
+
+
+
+
+
+
+
+    
+            <header>
+    <div class="row section-header no-topmenu">
+        <div class="large-12 medium-12 small-12 columns logo">
+            <a class="main-logo" href="//www.au.dk/" itemprop="url">
+                <object data="//www.aucdn.dk/2016/assets/img/logos.svg#au" type="image/svg+xml" alt="Aarhus University logo / Aarhus Universitets logo"></object>
+            </a>
+            <div class="hide-for-small-only find">
+                <a class="button find-button float-right" type="button" data-toggle="find-dropdown">Find</a>
+                <div class="dropdown-pane bottom " id="find-dropdown" data-dropdown data-hover="false"
+                    data-hover-pane="false" data-close-on-click="true">
+                    <div id="find-container" class="find-container"></div>
+                </div>
+            </div>
+            <div class="search">
+                
+<div class="au_searchbox" id="cludo-search-form" role="search">
+	<form class="au_searchform">
+		<fieldset>
+			<input class="au_searchquery" type="search" value="" name="searchrequest" id="cludo-search-form-input" aria-autocomplete="list"
+			 aria-haspopup="true" aria-label="Indtast søgekriterium" title="Indtast søgekriterium" />
+			<input class="au_searchbox_button" type="submit" title="Søg" value="Søg" />
+		</fieldset>
+	</form>
+</div>
+
+            </div>
+            <div class="language-selector">
+                <p></p>
+            </div>
+            <nav class="utility-links"><div id="c166876" class="csc-default" class="csc-default"><script>
+// Default alphabox med medarbejderservice til utility-box
+AU.alphabox.boxes.push(DEFAULT_util_staffservice_da);
+</script>
+            
+                <ul class="utility resetlist">
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-student" >Til studerende</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-phd" >Til ph.d.er</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-staff" >Til medarbejdere</a></li>
+
+          <!-- STUDENT -->
+<div class="dropdown-pane phd" id="utility-pane-student" data-dropdown data-close-on-click="
+true">
+<h2>Studieportaler</h2>
+<a href="https://studerende.au.dk/studier/fagportaler/jur/" class="button expanded text-left bg-dark-student margin">Jura</a>
+<a href="https://studerende.au.dk/studier/fagportaler/hajur-candmercjur/" class="button expanded text-left bg-dark-student margin">Erhvervsjura</a>
+  
+</div>
+</div>
+<!-- STUDENT END -->
+<!-- PHD -->
+<div class="dropdown-pane phd" id="utility-pane-phd" data-dropdown data-close-on-click="true">
+<h2>Ph.d.-portal</h2>
+<a href="https://law.medarbejdere.au.dk/intranet-for-juridisk-institut/" class="button expanded text-left bg-dark-phd margin">Law</a>
+</div>
+<!-- PHD END -->
+<!-- MEDARBEJDER -->
+<div class="dropdown-pane bottom" id="utility-pane-staff" data-dropdown data-close-on-click="true">
+<h2>Lokal medarbejderportal</h2>
+<a href="https://law.medarbejdere.au.dk/" class="button expanded text-left bg-dark-staff margin">Juridisk Institut</a>
+<div id="au_alphabox_staff_utility"></div>
+</div>
+<!-- MEDARBEJDER END -->         
+                </ul>
+
+
+
+
+</div></nav>
+        </div>
+    </div>
+    
+    <div class="row section-title">
+        <div class=" large-10 medium-10 columns">
+            <h1>
+                <a href="/">AU Library</a>
+            </h1>
+        </div>
+        <div class="large-2 medium-2 small-2 columns seal text-right">
+            
+                <img class="seal show-for-medium" src="//www.aucdn.dk/2016/assets/img/au_segl.svg" alt="Aarhus University Seal / Aarhus Universitets segl" />
+            
+        </div>
+    </div>
+    <div class="row header-menu">
+        <div class="columns medium-12 large-12 small-12 small-order-2">
+            <div class="title-bar align-right" data-responsive-toggle="menu" data-hide-for="medium">
+                <div class="mobile-nav">
+                    <button class="menu-icon" data-toggle></button>
+                </div>
+            </div>
+            <div id="c183845" class="csc-default" class="csc-default"><div class="top-bar custom" id="menu">
+    <div class="top-bar-left">
+        <ul class="menu resetlist">
+            <li style="display:none;" class="directLink">
+                <a href="//library.au.dk">AU Library</a>
+            </li>
+            <li>
+              <a href="//library.au.dk/biblioteker/">Brug biblioteket</a>
+                <div class="top-bar-content">
+                    <div class="row">
+             <div class="column large-3 medium-3 small-12">
+                            <h1>Lån og aflevering</h1>
+                            <ul>
+                              <li><a href="//library.au.dk/laan-og-aflevering/glemt-pinkode/">Glemt pinkode</a></li>  
+                              <li><a href="//library.au.dk/laan-og-aflevering/hente-og-aflevere/">Hent og aflever materialer</a></li>
+                              <li><a href="//library.au.dk/laan-og-aflevering/vi-skaffer-det/">Vi skaffer det</a></li>
+                              <li><a href="//library.au.dk/laan-og-aflevering/">Lån og aflevering</a></li>
+                              <li><a href="//library.au.dk/bliv-bruger">Bliv bruger</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Biblioteker</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/biblioteker/">Biblioteker</a></li>
+                                <li><a href="//library.au.dk/aabningstider/">Åbningstider</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Faciliteter</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faciliteter/laese-studieplads/">Læsepladser</a></li>
+                                <li><a href="//library.au.dk/faciliteter/print-og-kopi/">MyPrint</a></li>
+                                <li><a href="//library.au.dk/faciliteter">Se alle faciliteter</a></li>
+                            </ul>
+                        </div>
+                       
+                        <div class="column large-3 medium-3 small-12">
+                      <h1>Kontakt</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faa-hjaelp-fra-en-bibliotekar/">Få hjælp fra biblioteket</a></li>
+                            </ul>
+                    </div></div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/biblioteker/" class="float-right button arrow">Brug biblioteket</a>
+                          </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/studerende/">Til studerende</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du studerer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faciliteter/grupperum/">Grupperum</a></li>
+                                <li><a href="//library.au.dk/faciliteter/laese-studieplads/">Læsepladser</a></li>
+                                <li><a href="//library.au.dk/studerende/semesterhylder/">Semesterhylder</a></li>
+                                <li><a href="//library.au.dk/faciliteter/print-og-kopi/">MyPrint</a></li>
+                                <li><a href="//library.au.dk/faciliteter/">Alle faciliteter</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du finder litteratur</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/fagsider/">Fagsider</a></li>
+                                <li><a href="//library.au.dk/arrangementer/">Kurser</a></li>
+                                <li><a href="//library.au.dk/laan-og-aflevering/hjemmeadgang/">Hjemmeadgang</a></li>
+                                <li><a href="//library.au.dk/studerende/informationssoegning/">Informationssøgning</a></li>
+                                <li><a href="//library.au.dk/materialer/specialer/">Specialer</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du skriver opgave</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/studerende/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/studerende/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/">Ophavsret og Brug af billeder</a></li>
+                                <li><a href="//library.au.dk/studerende/opgaveskrivning/">Opgaveskrivning</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                      <h1>Brug for hjælp</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faa-hjaelp-fra-en-bibliotekar/">Spørg AU Library</a></li>
+                                <li><a href="//library.au.dk/biblioteker/">Find bibliotek</a></li>
+                            </ul></div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/studerende/" class="float-right button arrow">Mere til studerende</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/forsker/">Til forskere</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du forsker</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/forskere/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/forskere/ophavsret/">Ophavsret</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du publicerer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/publicering/publiceringsstrategi/">Publiceringsstrategi</a></li>
+                                <li><a href="//medarbejdere.au.dk/openaccess/">Open Access</a></li>
+                                <li><a href="//pure.au.dk">PURE registrering</a></li>
+                                <li><a href="//library.au.dk/forskere/forsker-id/">Forsker-ID</a></li>
+                            </ul>
+                        </div>
+                          <div class="column large-3 medium-3 small-12">
+                            <h1>Informationssøgning</h1>
+                            <ul>
+                                    
+                                <li><a href="//library.au.dk/forskere/systematisklitteratursoegning/">Systematisk litteratursøgning</a></li>
+                                <li><a href="//library.au.dk/forskere/systematiskereviews/">Systematiske reviews</a></li>
+                                <li><a href="//library.au.dk/forskere/alerts/">Alerts</a></li>
+                     
+                                      <li><a href="//library.au.dk/forskere/bibliometri/">Bibliometri</a></li>
+                            </ul> 
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                          <h1>Support</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/kontaktbibliotekar/">Kontaktbibliotekar</a></li>
+                                <li><a href="//library.au.dk/laan-og-aflevering/forslag-til-indkoeb/">Forslag til indkøb</a></li>
+                                
+                            </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/forsker/" class="float-right button arrow">Mere til forskere</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/underviser">Til undervisere</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Undervisnings<wbr>materialer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/fagsider/">Fagsider</a></li>
+                                <li><a href="//library.au.dk/underviser/semesterlitteratur/">Semesterlitteratur</a></li>
+                                <li><a href="//library.au.dk/underviser/ophavsret">Blackboard og ophavsret</a></li>
+                                <li><a href="//library.au.dk/underviser/plagiering/">Plagieringstjek</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Til dine studerende</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/studerende/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/studerende/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/billeder/">Brug af billeder</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/traen-din-ophavsret/">Træn din ophavsret</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Undervisning fra AU Library</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/arrangementer/">Se kurser</a></li>
+                                <li><a href="//library.au.dk/arrangementer/bestil-kursus/">Bestil et kursus</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Support</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/laan-og-aflevering/forslag-til-indkoeb/">Forslag til indkøb</a></li>
+                                <li><a href="//library.au.dk/forskere/kontaktbibliotekar/">Kontaktbibliotekar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/underviser/" class="float-right button arrow">Mere til undervisere</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+          <!--  <li style="display:none;">
+                <a href="//www.au.dk/om/">Om AU Library</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Organisering</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/biblioteker/">Biblioteker</a></li>
+                                <li><a href="//library.au.dk/om-au-library/au-library-ledelsen/">Ledelse</a></li>
+                              
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Samarbejde</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/om-au-library/bibliotekssamarbejde/">Det Kgl. Bibliotek</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Find</h1>
+                            <ul>
+                                <li><a href="//au.dk/om/organisation/find-au/bygningskort/">Bygningskort</a></li>
+                                <li><a href="//library.au.dk/om-au-library/personale-i-au-library/">Medarbejdere</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Kontakt</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/om-au-library/kontakt/">Kontakt</a></li>
+                                <li><a href="//library.au.dk/om-au-library/personale-i-au-library/">Telefonliste</a></li>
+                                <li><a href="//library.au.dk/om-au-library/aabningstider/">Åbningstider</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/om-au-library/" class="float-right button arrow">Om AU Library</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            -->
+            <li><a id="DisplayOpeningHours" href="//library.au.dk/aabningstider">Åbningstider</a>
+              <div class="top-bar-content">
+                <div class="column large-3 medium-3 small-12">
+                            <h1>Åbningstider</h1>
+              </div>
+               <div id="openinghours"></div>   
+                   <div class="row" style="width: 100%;">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/om-au-library/aabningstider" class="float-right button arrow">Se alle åbningstider</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div></div><script type="text/javascript" charset="utf-8">
+	//<![CDATA[
+	var selectedUM =100;
+	//]]>
+	 // JavaScript Document
+	 </script>
+        </div>
+    </div>
+    <div id="fade"></div>
+</header>
+        
+
+
+
+
+
+
+<div class="row breadcrumb align-right hide-for-small-only">
+    <div class="columns medium-12">
+        <div id="au_breadcrumb"><span class="breadcrumb-prefix">Du er her:</span>&#160;<a href="//library.au.dk">AU Library</a><span class="icon-bullet_rounded">&#160;</span><a href="materialer/">Materialer</a><span class="icon-bullet_rounded">&#160;</span><a href="materialer/saersamlinger/">Særsamlinger</a><span class="icon-bullet_rounded">&#160;</span><strong>Skolelove</strong></div>
+    </div>
+</div>
+<div class="row">
+    <nav class="small-12 large-3 medium-4 columns medium-only-portrait-4 pagenav left-menu align-top">
+        <h3 class="menu-title"><a href="/">Aarhus University Library</a></h3><ul id="au_section_nav_inner_list"><li class="au_branch"><a href="biblioteker/">Biblioteker</a></li><li class="au_branch"><a href="faciliteter/">Faciliteter</a></li><li class="au_branch"><a href="forskere/">Forsker</a></li><li class="au_branch"><a href="underviser/">Underviser</a></li><li class="au_branch"><a href="studerende/">Studerende</a></li><li class="au_branch"><a href="fagsider/">Fagsider</a></li><li class="au_branch"><a href="laan-og-aflevering/">Lån og aflevering</a></li><li class="au_branch au_selected_branch"><a href="materialer/">Materialer</a><ul><li class="lvl2"><a href="materialer/artikler-og-tidsskrifter/">Artikler og tidsskrifter</a></li><li class="lvl2"><a href="materialer/aviser/">Aviser</a></li><li class="lvl2"><a href="materialer/e-boeger/">Bøger & e-bøger</a></li><li class="lvl2"><a href="materialer/databaser/">Databaser</a></li><li class="lvl2"><a href="materialer/forskningspublikationer/">Forskningspublikationer</a></li><li class="lvl2"><a href="materialer/leksika/">Leksika</a></li><li class="lvl2"><a href="materialer/musik/">Musik</a></li><li class="lvl2"><a href="materialer/ordboeger/">Ordbøger</a></li><li class="lvl2"><a href="materialer/patenter/">Patenter</a></li><li class="lvl2"><a href="materialer/radiotv-og-reklamefilm/">Radio/tv og reklamefilm</a></li><li class="au_branch lvl2"><a href="materialer/specialer/">Specialer</a></li><li class="lvl2"><a href="materialer/standarder/">Standarder</a></li><li class="au_branch au_selected_branch"><a href="materialer/saersamlinger/">Særsamlinger</a><ul><li class="lvl3"><a href="materialer/saersamlinger/georg-brandes-arkivet/">Georg Brandes-arkivet</a></li><li class="lvl3"><a href="materialer/saersamlinger/anskuelsesbillederne/">Anskuelsestavler</a></li><li class="au_branch lvl3"><a href="materialer/saersamlinger/boernebogssamlingen/">Børnebogssamlingen</a></li><li class="au_current lv3"><a href="materialer/saersamlinger/skolelove/">Skolelove</a></li><li class="lvl3"><a href="materialer/saersamlinger/sognekort/">Sognekort</a></li><li class="lvl3"><a href="biblioteker/nymunkegade/stenoarkiv/">Videnskabshistorisk arkiv</a></li><li class="lvl3"><a href="materialer/saersamlinger/statsbibliotekets-specialsamlinger/">Statsbibliotekets specialsamlinger</a></li></ul></li></ul></li><li class="au_branch"><a href="arrangementer/">Kurser og arrangementer</a></li><li><a href="nyheder/">Nyheder</a></li><li class="au_branch"><a href="om-au-library/">Om AU Library</a></li></ul>
+    </nav>
+    <div class="small-12 large-9 medium-8 columns medium-only-portrait-8 content main" id="au_content">
+        <div class="row">
+            <div class="large-12 medium-12 medium-only-portrait-12 small-12 columns">
+                <h1 class="pagetitle">Skolelove</h1>
+                <div id="c216739" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c62764" class="csc-default" class="csc-default"><div class="tx-lfskolelov-pi1">
+		
+<div style="display: none;">Danske skolelove i fuldtekst</div>
+<div class="skl_show_header">
+<div class="skl_show_date">
+                 <div class="skolelov-leftcol">Dato: </div>
+                 <div class="skolelov-rightcol">29-03-1904</div>
+</div>
+<div class="skl_show_nr">
+                 <div class="skolelov-leftcol">Forskriftens nr.: </div>
+                 <div class="skolelov-rightcol">61</div>
+</div>
+<div class="skl_show_title">
+                 <div class="skolelov-leftcol">Titel: </div>
+                 <div class="skolelov-rightcol">Lov om forskellige Forhold vedrørende Folkeskolen</div>
+</div>
+<div class="skl_show_links"><div class="skolelov-leftcol">Kan findes som:</div>
+<div class="skolelov-rightcol">  <div class="skl_show_item1"><a href="/uploads/tx_lfskolelov/1904-03-29_61.pdf">PDF</a></div>
+  <div class="skl_show_item2">Ingen links til ekstern html side</div>
+  <div class="skl_show_item2">For evt. trykt udgave, <a href="">søg i bibliotekets katalog</a></div>
+</div>
+</div>
+
+<div class="Button">
+<input type="button" value="Tilbage" class="Button" onclick="history.back()">
+</div>
+Lov om forskellige Forhold vedrørende Folkeskolen.
+Vi Christian den Niende, af Guds Naade Konge til Danmark, de Venders og Goters, Hertug til Slesvig, Holsten, Stormarn, Ditmarsken, Lauenborg og Oldenborg,
+ 
+Gøre vitterligt, at Vi i Henhold til § 13 i Lov af 29de Marts 1904 om Ændringer i og Tillæg til Lov af 24de Marts 1899 om forskellige Forhold vedrørende Folkeskolen have ladet affatte Teksten af sidstnævnte Lov, ændret saaledes, som nævnte Lov af 29de Marts 1904 medfører det, og herved udfærdige den som Lov om forskellige Forhold vedrørende Folkeskolen.
+ 
+I.
+Undervisningspligt.
+§ 1.
+Undervisningspligten indtræder for et Barn med Begyndelsen af det første Skolehalvaar, efter at det har fyldt 7 Aar. Dog kan det pa.a Begæring af dets Forældre optages i den offentlige Skole fra Begyndelsen af det første Skolehalvaar, efter at det er fyldt 6 Aar.
+Hvad der gælder Forældre, gælder her som i øvrigt i denne Lov ogsaa Værger og Husbonder.
+Optagelse i den offentlige Skole finder kun Sted ved et Skolehalvaars Begyndelse. Undtagelsesvis kan der dog, naar særlige Omstændigheder foreligge, saasom Forandring af Opholdssted eller Sygdom, med Skolekommissionens Samtykke afviges fra denne Bestemmelse. Ved Skoler med særlig Pogeklasse eller dertil svarende Forberedelsesklasse er Skolekommissionen berettiget til at optage Børn i denne Masse til enhver Tid.
+Undervisningspligten ophører med Slutningen af det Skolehalvaar, i hvilket Barnet har fyldt 14 Aar, eller med en henimod Slutningen af dette Halvaar afholdt Prøve, hvor en saadan optages paa Undervisningsplanen. Ud over det Tidspunkt, da Undervisningspligten ophører, kan Barnet ikke forblive i den offentlige Skole, medmindre Kommunalbestyrelsen efter Skolekommissionens Indstilling har givet sit Samtykke dertil.
+Har et Barn, der i Sommerhalvaaret fylder 14 Aar, ved den foregaaende Foraarsprøve godtgjort at have naaet Skolens Maal, kan det paa Begæring af dets Forældre udskrives af Skolen, naar særlige Forhold i Hjemmet efter Skolekommissionens Skøn tale derfor.
+Lov af 2den Maj 1855 §§ 3 og 4 ophæves.
+ 
+§ 2.
+Naar Forældre uden lovlig og vedkommende Lærer meddelt Grund lade deres til den offentlige Skole henviste Børn forsømme Skolen, blive de herfor af vedkom- mende Kommunalbestyrelse at ikende en Bøde af 12 øre for hver Dag, noget af deres Børn saaledes har forsømt Skolen i en Maaned. Udvises saadan Forsømmelighed i mere end een Maaned af Skolehalvaaret, bliver Bøden at forhøje til 25 øre, 50 øre og 1 Kr. for hver forsømt Dag, henholdsvis i 2den, 3die og 4de eller senere Maaneder. Udvises saadan Forsømmelighed ud over 4 Dage i en Maaned, ikendes en Tillægsbøde af 25 øre pr. Dag for samtlige forsømte Dage i Maaneden, dog at Bøden derved ikke kan bringes op over 1 Kr. for hver forsømt Dag. Naar disse Bøder ikke udredes, ville de være at søge inddrevne ved Udpantning, og de Beløb, som ikke saaledes indkomme, blive at afsone i Overensstemmelse med de i Lov af 16de Februar 1866 § 1 indeholdte Forskrifter. I Tilfælde af Afsoning sammenlægges Bøderne for alle de de Børn, for hvis Skolegang een Person har Ansvaret. For enkeltvis forekommende Forsømmelser er Kommunalbestyrelsen berettiget til at undlade at ikende Bøder, naar der i de foregaaende 6 Maaneder ikke er forsømt over 3 Dage uden lovlig Grund, eller hvor særlige Omstændigheder tale derfor.
+§3.
+Senest den 5te i hver af Maanederne Januar, Marts, Maj, Juli, September og November har Læreren at tilstille Kommunalbestyrelsen en Fortegnelse i 2 Eksemplarer over de i de to sidst forløbne Maaneder stedfundne Forsømmelser af Skolens Børn, affattet i den Form, som nærmere fastsættes af Ministeren for Kirke- og Undervisningsvæsenet.
+Er der ansat flere Lærere ved en Skole, bliver Arbejdet ved den nævnte Fortegnelses Affattelse at fordele mellem dem.
+Inden den 15de i hver af de nævnte 6 Maaneder afholder Kommunalbestyrelsen derefter Møde om Sagen, og ved Maanedens Udgang indkræves de endnu ikke udredede Bøder.
+§4.
+Senest 8 Dage efter hvert af de i § 3 ommeldte Møder indsender Kommunalbestyrelsen til Skoledirektionen det ene Eksemplar af Fortegnelsen over Skoleforsømmelser i de sidst forløbne 2 Maaneder tilligemed Oplysning om de i Henhold dertil i hvert enkelt Tilfælde trufne Afgørelser og om, hvorvidt de for de næstforegaaende 2 Maaneder ikendte Bøder ere udredede eller afsonede.
+§ 5.
+Ministeren skal være bemyndiget til, naar Skoledirektionen og Kommunalbestyrelsen derom ere enige, paa højst 5 Aar ad Gangen at lade Bestemmelser, sigtende til paa anden Maade end ved Paatale eller Straf at modarbejde Skoleforsømmelser, træde i Kraft.
+Det i Anordningerne af 29de Juli 1814 indeholdte Paabud om halvaarlig Advarsel fra Prædikestolene til Forældre, Værger og Husbonder ophæves.
+II.
+Undervisningens Ordning og Omfang.
+§ 6.
+Børnene i den offentlige Skole inddeles i Klasser efter Alder, Fremgang og Modenhed. Saa længe en Skole paa Landet med een Lærer ikke i to paa hinanden følgende Aar har været søgt af over 35 Børn, kan dog Undervisningen eller en Del af denne med Skoledirektionens Samtykke foregaa i een Klasse for samtlige skole søgende Børn.
+§ 7.
+Naar i en offentlig Skole i Købstæderne eller paa Landet Gennemsnitstallet af Børnene i Skolens - derunder Forskolens - Klasser, beregnet efter Gennemsnittet af Børnetallet i Kalenderaaret, i to paa hinanden følgende Aar har overskredet henholdsvis 35 og 37, skal Gennemsnitstallet bringes ned til disse Grænser i Overensstemmelse med Reglerne i denne Lovs § 8.
+Lov af 8de Marts 1856 § 1 ophæves.
+§ 8.
+Hvor Børnetallet i Skolens enkelte Klasser gør en Forandring i den bestaaende Ordning nødvendig i Henhold til denne Lovs § 7, 1ste Stykke, kan en saadan Forandring tilvejebringes paa en af nedennævnte Maader, nemlig ved:
+1) Oprettelse af en Forskole;
+2) Oprettelse af en ny Klasse og et nyt Lærerembede ved Skolen;
+3) Oprettelse af en ny fuldstændig Skole;
+4) Henvisning af ældre Børn fra flere Skoledistrikter til en enkelt bestaaende Skole eller Oprettelse af en formaalstjenlig beliggende Skole for saadanne Børn;
+5) Overenskomst med en privat Skole om, at denne mod et Vederlag overtager et vist Tal af Kommunens undervisningspligtige Børn, saaledes at der med Hensyn til Skolegangens Stadighed føres samme Tilsyn med de Børn, der undervises paa denne Maade, som med de Børn, der undervises i Kommunens Skoler. Denne Ordning af et Barns Undervisning skulle dog dets Forældre til enhver Tid gyldig kunne modsætte sig;
+6) Overenskomst med en Nabokommune om, at denne overtager et vist Tal af Kommunens undervisningspligtige Børn til Undervisning.
+Bestemmelse om de under 1 - 4 ommeldte Foranstaltninger træffes gennem Kommunens Skoleplan, jfr. nedenfor § 12, alt under Hensyn til Undervisningens Tarv eller Udgifternes Størrelse, Vejlængderne eller andre stedlige Forhold.
+De under 5 - 6 nævnte Overenskomster kunne for 1 til 3 Aar ad Gangen med Skoledirektionens Samtykke vedtages af Kommunalbestyrelsen.
+Forskole kan holdes i Kommunens Skolebygninger eller med Skoledirektionens Samtykke i lejede eller overladte Lokaler.
+Naar ny Bygninger opføres eller ældre udvides til Brug for Forskoler, blive Bestemmelserne om Skolestuer i Lov af 8de Marts 1856 § 2 at følge. Lejede eller overladte Lokaler bør ligeledes saa vidt muligt fyldestgøre disse Bestemmelser, ligesom der altid bør sørges for tilstrækkelig Ventilation.
+§ 10.
+Forskolen og de dertil svarende Klasser skulle, saa vidt muligt gennem Anskuelsesundervisning, forberede den senere Undervisning. Børnene skulle lære at læse, at skrive, at regne med hele Tal og at synge lettere Børnesange og Salmer. Endvidere skulle de, væsentlig gennem Fortælling og Genfortælling, lære Bibelhistorie og Fædrelandets Historie og Geografi i Udtog, samt øve en for deres Alder afpasset Gymnastik med Lege.
+Undervisningen i de offentlige Skolers øvrige Klasser omfatter:
+a) i Købstæderne:
+Mundtlig og skriftlig Dansk (mindst 287 Timer aarlig i Gennemsnit i Skolens Klasser), Religion, Skrivning, Regning, Historie, Geografi, Sang, Tegning, Gymnastik og kvindelig Haandgerning. Hvor Ministeren skønner, at Forholdene tale derfor, kan han dog tillade, at indførelsen af Gymnastik for Pigerne foreløbig udsættes, Desuden skal der efter Forslag af Skolekommissionen og nærmere Bestemmelse i Undervisningsplanen kunne optages Undervisning i Naturkundskab, Sundhedslære, Sløjd og kvindelig Husgerning, samt, hvor en videregaaende Undervisning tilsigtes, i Matematik og levende Sprog; paa samme Maade skulle Skolebade kunne optages paa Undervisningsplanen;
+b) paa Landet:
+Mundtlig og skriftlig Dansk (mindst 287 Timer aarlig i Gennemsnit i Skolens Klasser), Religion, Skrivning, Regning, Historie, Geografi, Sang og for Drengene tillige Gymnastik. Hvor der i Skoledistriktet er ansat en Lærerinde, skal der ogsaa undervises i kvindelig Haandgerning. Desuden skal der efter Forslag af Skolekommissionen og nærmere Bestemmelse i Undervisningsplanen kunne optages Undervisning i Naturkundskab, Sundhedslære, Sløjd og Gymnastik for Pigerne; paa samme Maade skulle Skolebade kunne optages paa Undervisningsplanen.
+De Læremidler, der kun bruges paa Skolen, anskaffes til samtlige Børn for Kommunens Regning. Til fattige Forældres Børn anskaffes ogsaa de øvrige Læremidler for Kommunens Regning. Vedkommende Kommunalbestyrelse afgør selv, om Forældrene skulle regnes for fattige; hvis de paagældende Forældre føle sig brøstholdne ved denne Afgørelse, træffes endelig Bestemmelse i saa Henseende i et af Kommunalbestyrelsens Formand ledet Fællesmøde af Kommunalbestyrelsen og Skolekommissionen.
+§ 11.
+Der skal i de offentlige Skoler i Købstæderne og paa Landet undervises i mindst 41 Uger om Aaret.
+I Skolerne i Købstæderne skulle Klasserne i Gennemsnit have mindst 21 Timers Undervisning om Ugen, herunder ikke medregnet det Antal timer, i hvilke der efter Undervisningsplanen vil være at undervise i Gymnastik, kvindelig Haandgerning, Tegning, Sløjd og kvindelig Husgerning. I Skolerne paa Landet skal hver
+Klasse aarlig have mindst 18 Timers Undervisning om Ugen i Gennemsnit, herunder ikke medregnet det Antal Timer, i hvilke der efter Undervisningsplanen vil være at undervise i Gymnastik, kvindelig Haandgerning og Sløjd.
+§ 12.
+For hver Kommunes Vedkommende udarbejdes af Kommunalbestyrelsen efter Forslag af Skolekommissionen en Skoleplan, indeholdende Bestemmelser om a) Skolernes Tal og Distriktsomraade, b) Lærernes Tal og Lønning. Planen sendes til Skoledirektionen, med hvis Indstilling den derefter forelægges Ministeren til Stadfæstelse.
+Skoleplanen kan til enhver Tid ændres, for saa vidt saadant anses for hensigtsmæssigt eller nødvendigt af Hensyn til Bestemmelserne i denne Lov, og skal hvert 10de Aar underkastes et Gennemsyn, i begge Tilfælde under Iagttagelse af den ovenfor nævnte Fremgangsmaade.
+§ 13.
+Endvidere skal der for samtlige offentlige Skoler i Kommunen af Kommunalbestyrelsen efter Forslag af Skolekommissionen udarbejdes en Undervisningsplan, indeholdende Bestemmelser, a) om Undervisningen i Klasserne er fælles eller sondret for Drenge og Piger, b) om Undervisningstiden for den enkelte Klasse, c) om Skolegangsordenen, d) om Undervisningsfagene og disses Timetal, e) om det Maal, hvortil der i de enkelte Fag bør naas i hver Klasse m. m.
+Denne Plan indsendes af Kommunalbestyrelsen til Skoledirektionens Stadfæstelse. Skønner Skoledirektionen, at der i Planen bør foretages Ændringer, som Kommunalbestyrelsen vægrer sig ved at tage til Følge, bliver Sagen at forelægge Ministeren til endelig Afgørelse. Undervisningsplanen kan til enhver Tid ændres og skal hvert 10de Aar underkastes et Gennemsyn, i begge Tilfælde under Iagttagelse af den ovenfor nævnte Fremgangsmaade.
+Den godkendte Plan saavel som senere godkendte Ændringer i Planen udfærdiges i to Eksemplarer, hvoraf det ene indsendes til Ministeren.
+§ 14.
+Ministeren bemyndiges til efter Forslag af den stedlige Skolebestyrelse dels at tillade, at Undervisningen i en Pogeskole, Vinterskole eller Biskole, hvor der hidtil i enkelte Egne af Landet har været anvendt ueksaminerede Lærere (Lærerinder), fremdeles besørges af en af Skoledirektionen anerkendt, ueksamineret, ikke fast ansat Lærer (Lærerinde), for saa vidt og saa længe Børnetallet i denne Skole ikke overstiger 35, dels at indrømme Tilladelse til Undervisningens Ordning paa tilsvarende Maade ved ny Skoler i paagældende Egne af Landet.
+Endvidere bemyndiges Ministeren til, hvor særlige Forhold maatte tale derfor, at bevilge Afvigelser fra de i denne Lovs § 7, 10 og 11 fastsatte Bestemmelser, frr saa vidt saadanne Afvigelser foreslaas af den stedlige Skolebestyrelse.
+III.
+Lærerkaldelse m. m.
+§ 15.
+Tallet af de i Henhold til Lov af 6te Juli 1867 § 16 af Sogneraadet valgte Medlemmer af en Landkommunes Skolekommission kan af Sogneraadet, hvor dette maatte anse saadant for heldigt, forhøjes til 4, saaledes at mindst 2 vælges uden for Sogneraadet. Mindst 2 af Skolekommissionens valgte Medlemmer skulle i saa Fald være Familiefædre eller Enker, som have undervisningspligtige Børn, idet dog Genvalg kan finde Sted, selv om den paagældendes Børn, naar Valget sker, ikke længere ere undervisningspligtige.
+§ 16.
+Naar et Lærerembede, der ikke besættes af Kongen, eller et Lærerindeembede bliver ledigt, har den kaldsberettigede Myndighed snarest muligt at offentliggøre en Meddelelse herom i 'Statstidende' med nøjagtige Oplysninger om de Embedet tillagte Indtægter og samtidig at indkalde Ansøgninger med 4 Ugers Varsel.
+De inden denne Frist indkomne Ansøgninger sendes til den kaldsberettigede Myndighed til vedkommende Kommunalbestyrelse tilligemed en Fortegnelse over de Ansøgere, som mangle de i § 17 foreskrevne Betingelser for at kunne komme i Betragtning.
+Skulde Kommunalbestyrelsen finde, at nogen uden gyldig Grund er optagen paa sidstnævnte Fortegnelse, kan den indstille Spørgsmaalet til Ministerens Afgørelse.
+Kommunalbestyrelsen indstiller derefter i et Møde, hvori Skolekommissionen dog uden at have Stemmeret deltager, 3 af Ansøgerne til den kaldsberettigede Myndighed, der blandt de indstillede kalder den, som den finder mest skikket til Embedet, samt meddeler ham Kaldsbrev.
+Finder den kaldsberettigede i Henseende til udvist Lærerdygtighed og moralsk Vandel ingen af de indstillede skikket eller værdig til Embedet, tilbagesendes Indstillingen til Kommunalbestyrelsen med Angivelse af de Grunde, hvorfor den er forkastet. Finder Kommunalbestyrelsen, efter at have gjort sig bekendt med disse, ikke Anledning til at gøre ny Indstilling, tilkommer Afgørelsen Ministeren, til hvem samtlige Ansøgninger og Akter da indsendes.
+Findes der blandt de indstillede nogen af de paa den kaldsberettigedes ovennævnte Fortegnelse opførte Ansøgere, er den kaldsberettigede Myndighed ikke bunden til Indstillingen, men kan blandt samtlige Ansøgere kalde den, som den finder mest skikket til Embedet.
+Er det om et Embede ikke tre egnede Ansøgere, sker der paa ny Indkaldelse af ansøgninger paa ovennævnte Maade. Kommer der heller ikke herefter det fornødne Antal, indstilles Sagen til Ministerens Afgørelse.
+Overlærere (Inspektører, Førstelærere) i Købstæderne udnævnes ligesom hidtil af Kongen.
+ 
+§ 17.
+For at kunne opnaa fast Ansættelse i den offentlige Folkeskole kræves ved alle Embeder i Købstæder eller paa Landet, Forskoleembeder undtagne, at vedkommende har bestaaet de for Lærere og Lærerinder i Folkeskolen anordnede afsluttende Prøver (jfr. Lov af 25de Juli 1867 og Lov af 30te Marts 1894), og ved Forskoleembeder, at vedkommende enten har bestaaet disse Prøver eller har opnaaet Modenhedsbevis fra Forskoleseminariet i Vejle eller fra et andet Seminarium, som af Ministeren er anerkendt som berettiget til at uddanne Forskolelærerinder.
+Til fast Ansættelse i Andenlærerembeder paa Landet kræves endvidere for dem, der have aflagt Prøve efter Lov af 30te Marts 1894, at vedkommende fyldestgør den i bemeldte Lovs § 13 angivne Fordring om mindst eet Aars Sysselsættelse med praktisk Skolegerning, og ved Embeder i Købstæder (Forberedelsesklasser undtagne) og Første- eller Enelærerembeder paa Landet (de i denne Lovs § 2, andet Stykke, omhandlede Biskoleembeder dog undtagne), at vedkommende har fyldt 25 Aar og i mindst 2 Aar ifølge Skolekommissionens Vidnesbyrd har virket tilfredsstillende i Skolens Tjeneste.
+Ministeren skal være bemyndiget til under særlige Forhold at tillade Afvigelser fra ovenstaaende Bestemmelser.
+ 
+§ 18.
+Skønner Skolekommissionen og Kommunalbestyrelsen, at en Lærer eller Lærerinde ikke gør Fyldest i sin Stilling, er Kommunalbestyrelsen berettiget til at gøre Indstilling til Skoledirektionen om hans Afskedigelse. Spørgsmaalet herom bliver da af Skoledirektionen at indstille til Ministeren, der afgør, om Sagen skal forfølges, og i saa Tilfælde, om Læreren skal afskediges eller kun forpligtes til at holde Hjælpelærer. Ingen Afskedigelse med Pension kan finde Sted, før der er indhentet Erklæring fra vedkommende Skoleraad.
+ 
+§19.
+Naar en Lærer har fyldt 70 Aar, er han berettiget til at kræve sin Afsked med Pension efter Loven.
+Gør han ikke Brug af denne Ret, kan Kommunalbestyrelsen kræve ham afskediget, i hvilket Tilfælde der ligeledes tillægges ham Pension efter Loven.
+ 
+IV.
+Lærernes Løn m. m.
+ 
+§ 20.
+De ved Skolerne i en Købstad fast ansatte Lærere og Lærerinder lønnes med stigende Pengelønninger, der fastsættes i Overensstemmelse med en af de nedenstaaende Skalaer, saaledes at Valget mellem disse, efter Forhandling med Kommunalbestyrelsen, træffes af Ministeren under Hensyn til Kommunens Forhold i det hele:
+For Lærere.
+Laveste Skala.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mellemste Skala, Højeste Skala.
+I de 2 første Aar&nbsp; 900 Kr. 1,000 Kr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,000 Kr.
+---- 3 næste --- 1,000 -&nbsp;&nbsp; 1,100 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,100 -
+---- 5 ----- --- 1,200 -&nbsp;&nbsp; 1,350 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,500 -
+---- 5 ----- --- 1,600 -&nbsp;&nbsp; 1,700 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,800 -
+---- 5 ----- --- 1,800 -&nbsp;&nbsp; 1,900 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2,000 -
+---- følgende -- 2,000 -&nbsp;&nbsp; 2,200 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2,400 -
+ 
+For Lærerinder.
+Laveste Skala.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mellemste Skala, Højeste Skala.
+I de 2 første Aar&nbsp; 700 Kr.&nbsp; 800 Kr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 800 Kr.
+---- 3 næste ---&nbsp;&nbsp; 800 -&nbsp;&nbsp;&nbsp; 900 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 900 -
+---- 5 ----- ---&nbsp;&nbsp; 900 -&nbsp; 1,000 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,000 -
+---- 5 ----- --- 1,100 -&nbsp; 1,200 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,250 -
+---- 5 ----- --- 1,200 -&nbsp; 1,300 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,350 -
+---- følgende -- 1,300 -&nbsp; 1,400 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,500 -
+Der tillægges Overlærerne (Førstelærerne) som Begyndelseslønning den højeste Lærerlønning ved den paagældende Skole samt som Lønningstillæg, der fastsættes under Hensyn til, hvilken af de ovenangivne Skalaer der er den gældende ved Skolen, henholdsvis 200 Kr., 300 Kr. og 400 Kr. hvert 4de Aar indtil 600 Kr., 900 Kr. og 1,200 Kr.
+Efter Indstilling af Kommunalbestyrelsen kan Ministeren dog for en Kommunes hele Skolevæsen eller Dele deraf godkende stigende Lønninger, ved hvilke der anvendes en noget højere Skala, dog at der ikke herved paabyrdes Statskassen højere Bidrag til Lærerlønningerne (jfr. § 32, Litra a) end i Henhold til den højeste af de foranstaaende Skalaer.
+Der kan som hidtil til et Lærerembede knyttes kirkelige Forretninger, saaledes at de dermed forbundne Indtægter af Højtidsoffer og Accidenser oppebæres af den paagældende Lærer; for saa vidt Udførelsen af saadanne Forretninger maatte medføre en Nedsættelse i det for Lærerne i Skoleplanen normerede ugentlige Timetal, eller saadan Nedsættelse varigt vil finde Sted af andre Grunde, vil Lønningen være forholdsmæssig at nedsætte. Denne Bestemmelse gælder dog ikke, hvor Overlærernes Timetal er nedsat af Hensyn til deres Virksomhed som Skolens nærmeste Bestyrer, eller hvor Nedsættelsen er begrundet i andet Arbejde i Skolens Tjeneste, hvorfor der ikke ydes særligt Vederlag.
+For Besørgelse af Kirkesangerforretningerne ydes der den Lærer, hvem disse maatte være overdragne, en Godtgørelse af mindst 100 Kr.
+ 
+§21.
+De ved Skolerne paa Landet fast ansatte Lærere og Lærerinder lønnes med stigende Pengelønninger efter nedenstaaende nærmere Regler.
+Begyndelseslønningerne, der fastsættes af Ministeren efter Forhandling med Kommunalbestyrelsen, maa ikke være under 700 Kr. eller over 900 Kr. for en Første- eller Enelærer, ikke under 500 Kr. eller over 700 Kr. for en Andenlærer eller Lærerinde og ikke under 400 Kr. eller over 600 Kr. for en Forskolelærerinde. Dog kan der, hvor særlige Forhold maatte tale derfor, fastsættes Begyndelseslønninger, der for Første- og Enelærere ere indtil 100 Kr. lavere eller indtil 200 Kr. højere og for Forskolelærerinder ere indtil 50 Kr. henholdsvis lavere eller højere end de angivne Grænser.
+Ved Fastsættelse af Begyndelseslønningerne for de i en Kommune alt bestaaende Embeder og for dem, der ved nærværende Lovs Ikrafttræden ville være at oprette i Henhold til Lovens § 7, skal det iagttages, at det samlede Beløb af disse Begyndelseslønninger i Forbindelse med de Vederlag for kirkelige Forretninger, som det vil paahvile Kommunen at udrede, saa vidt muligt kommer til at svare til den samlede Værdi af de bestaaende Embeders Kornløn, Jordlodsindtægter, Fourage,
+Højtidsoffer og Accidenser samt Skolepenge, Godtgørelse for kirkelige Forretninger og anden Pengeløn, der maatte være Embedet som saadant tillagt som Vederlag for nogen af de nævnte Lønningsdele, og navnlig skal det ikke kunne paalægges nogen Kommune at udrede mere end det til denne samlede Værdi svarende Beløb for at bringe Begyndelseslønningerne op over 600 Kr., 500 Kr. og 350 Kr. for henholdsvis en Første- eller Enelærer, en Andenlærer eller Lærerinde og en Forskolelærerinde. - Værdiansættelsen af Jordlodden og Fouragen sker paa Kommunens Bekostning ved 3 faste Vurderingsmænd, udmeldte i Henhold til Lov af 19de Marts 1869 om Udlaan i faste Ejendomme af umyndiges og andre under offentligt Tilsyn staaende Midler m. m. - Værdien af Kornlønnen, af Højtidsoffer og Accidenser samt af Skolepenge bestemmes ved en Beregning af det paagældende Embedes Gennemsnitsindtægter af disse Lønningsdele for Tiaaret 1888-97, saaledes at for Kornlønnens Vedkommende Kapitelstaksterne for disse Aar blive at lægge til Grund. Hvor Højtidsofret er afløst for bestandig, vil Afløsningssummen være at lægge til Grund ved Beregningen.
+Lønningstillægene fastsættes for Første- og Enelærere til 200 Kr. hvert 5te Aar indtil 600 Kr., for Andenlærere og Lærerinder til 100 Kr hvert 3die Aar indtil 500 Kr. og for Forskolelærerinder til 50 Kr. hvert 3die Aar indtil 200 Kr. Efter 20 Aars Tjeneste faa Første- og Enelærere samt Andenlærere et yderligere Tillæg paa henholdsvis 100 og 200 Kr.
+Ueksaminerede, ikke fast ansatte Lærere og Lærerinder ved Pogeskoler, Vinterskoler eller Biskoler, som lønnes af Kommunen med mindst 200 Kr., faa efter 3 Aars Tjeneste et Lønningstillæg paa 50 Kr. og efter 10 Aars Tjeneste et yderligere Tillæg paa 100 Kr.
+Forskolelærerinder og Pogeskolelærerinder, hvem Undervisningen i kvindelig Haandgerning i vedkommende Hovedskole paalægges, faa som Vederlag herfor et Tillæg til deres Løn paa 50 Kr. aarligt.
+Efter Indstilling af Kommunalbestyrelsen kan Ministeren for et eller flere af Lærerembederne i vedkommende Kommune godkende højere Begyndelseslønning og Lønningstillæg efter højere Skala end ovenfor angivet, dog at der ikke ved disse sidste paabyrdes Statskassen højere Bidrag til Lærerlønningerne end det i § 32 Litra b hjemlede.
+Foruden den stigende Pengelønning tillægges der samtlige fast ansatte Lærere og Lærerinder Bolig og Brændsel efter de hidtil gældende Regler samt en Have, der for Første- og Enelærere skal være mindst 2 Skpr Land og for de øvrige Lærere og for Lærerinderne mindst ½ Skp. Land. Hvor en saadan Have ikke uden uforholdsmæssig Bekostning kan tilvejebringes umiddelbart ved Lærerboligen, kan der tillægges Embedet et aarligt Pengevederlag i Stedet. Størrelsen af dette Vederlag, der i intet Tilfælde maa udgøre mere end 50 Kr., fastsættes af Ministeren efter Forhandling med Kommunalbestyrelsen.
+De ved Lærerembederne forud for denne Lovs Ikrafttræden udlagte Haver forblive uforandrede.
+For Besørgelsen af Kirkesangerforretningerne ydes der vedkommende Lærer et aarligt Vederlag paa 100 Kr. For Besørgelsen af Kirkebylærerforretningerne ydes der vedkommende Lærer et aarligt Vederlag, der, saa længe der ikke i Henhold til nedenstaaende er ansat en Ringer ved Kirken, fastsættes til 50 Kr. og efter Ringerens Ansættelse til 20 Kr. Den Kirkebylæreren i Henhold til Anordningen af 29de Juli 1814 for Landet Bilag A § 34 paahvilende Forpligtelse til at besørge Klokkerenes Ringning bortfalder. Ved indtrædende Vakance i Lærerembeder, med hvilke der er forbundet Kirkebylærerforretninger, bortfalder ligeledes den Kirkebylærerne i Henhold til Lov om nogle Bestemmelser vedrørende Kirkesyn, Præstegaardssyn m. v. af 19de Februar 1861 § 24 paahvilende Forpligtelse til at drage Omsorg for, at Trækruderne i Kirken aabnes hver Morgen og lukkes hver Aften. Til Udførelsen af fornævnte Forretninger saavel ved Sognekirker som ved Filialkirker beskikker da Menighedsraadet en Ringer, hvem det ogsaa skal paahvile under Raadets Tilsyn at besørge Kirkeurets Optrækning, Kirkens Rengøring samt Renholdelse m v. af Alterkar og Alterstager og af de til Gudstjenestens og Altergangens sømmelige Orden og Præstens Bekvemmelighed anskaffede Inventariegenstande. Ringerens Løn fastsættes af Menighedsraadet og udredes paa den i Lov om Menighedsraad af 13de Maj 1903 § 8 ommeldte Maade.
+For saa vidt Lov om Menighedsraad af 15de Maj 1903 bortfalder uden at være afløst af en ny Lov om Menighedsraad, træder Kommunalbestyrelsen i Menighedsraadets Sted saavel ved Beskikkelsen af Ringeren som ved Fastsættelsen af hans Løn, hvorimod Ligningen af denne Udgift fremdeles foretages paa Sognets til Folkekirken hørende offerpligtige Beboere efter Reglen for Ligningen af den personlige Kommuneskat.
+Indtil en Ringers Ansættelse vil Klokkernes Ringning være at besørge ved Sogneraadets Foranstaltning for Kommunens Regning, medens samtlige de ovennævnte øvrige Forretninger paahvile Kirkebylæreren, dog at han, hvis han maatte ønske det, fritages for Forretningerne mod ovenangivne Nedsættelse i Vederlaget, hvorefter Ansættelsen af Ringeren straks finder Sted.
+ 
+§ 22.
+Naar Tallet af de faste Lærerkræfter ved en Skole paa Landet er over 3, derunder ikke medregnet Lærerkræfterne ved en til Skolen knyttet Forskole, skal Ministeren være bemyndiget til at bestemme, at Halvdelen af Lærerne og Halvdelen af Lærerinderne eller for begge Klassers Vedkommende, hvis Tallet af disse er ulige, Flertallet lønnes henholdsvis efter de i denne Lovs § 21 givne Regler for Lønning af Første- eller Enelærere og efter den i § 20 angivne laveste Skala for Lærerinder.
+Hvor der i en Landkommune som Følge af spredt Beboelse hidtil har bestaaet saakaldte Biskoler (faste Embeder) med et forholdsvis ringe Børnetal, skal Ministeren være bemyndiget til at bestemme, at Lønningen for Lærerne ved saadanne Skoler, uden Hensyn til at Skolen søges af undervisningspligtige Børn i alle Aldere, fastsættes efter de i § 21 givne Regler for Andenlæreres Lønning, dog at der vil være at tillægge saadanne Embeder Bolig med Have for en gift Lærer og anordnigsmæssigt Brændsel
+ 
+§ 23.
+For Beregningen af Løntillægene i Henhold til § 20 og § 21, fjerde Stykke, gælder med efternævnte Udvidelser (a.--d.) og Begrænsninger (e. og f.) som Hovedregel, af den Tid, i hvilken den paagældende har været fast ansat i Lærer- eller Lærerindeembeder i Folkeskolen, medtages ved Beregningen.
+a) Konstitution, der umiddelbart er gaaet over til fast Ansættelse i samme Embede eller i et andet Embede ved samme Kommunes Skolevæsen, medregnes
+b) Timelærervirksomhed med det fulde for fast ansatte Lærere og Lærerinder gældende ugentlige Timetal medregnes, hvor den umiddelbart er gaaet over til fast Ansættelse - eller til Konstitution med efterfølgende fast Ansættelse ved samme Kommunes Skolevæsen.
+e) Ansættelse i en offentlig Skole i København medregnes.
+d) For saa vidt en Biskole, i hvilken Undervisningen hidtil har været besørget af en ikke fast ansat Lærer, ændres til en Skole, beregnet paa fast Ansættelse for Læreren, eller en Pogeskole ændres til en Forskole, fastsættes Tjenestealderen henholdsvis for den Lærer og for den Lærerinde, som umiddelbart er gaaet over fra den tidligere midlertidige Ansættelse til fast Ansættelse saaledes, at Tjenestetiden i den tidligere Stilling medtages med Halvdelen, dog under Forudsætning af, at Tjenestetiden i den tidligere Stilling har varet mindst 4 Aar.
+e) Løntillæg for Overlærere i Købstæderne beregnes kun efter Tjenestetiden som Overlærer, idet Konstitution medregnes som under a) angivet
+f) Tjenestetiden i et Forskolelærerindeembede medregnes ved senere Ansættelse i et Lærerindeembede paa Landet kun med Halvdelen af Tiden.
+Bestemmelserne under a. og b. skulle dog ikke være til Hinder for, at Lærervirksomhed af den der omtalte Art, som er udøvet, inden denne Lov træder i Kraft, medtages ved Tjenestealderberegningen i det Omfang, som maatte findes hjemlet ved Lov af 24de Marts 1899.
+Ved Beregning af Løntillæg i Henhold til. § 21, femte Stykke, for ueksaminerede, ikke fast ansatte Lærere eller Lærerinder ved Pogeskoler, Vinterskoler eller Biskoler medregnes for hver Klasses Vedkommende tidligere Virksomhed ved enhver af de nævnte Arter af Skoler, saaledes at den halvaarlige Vinterlærertjeneste regnes for et fuldt Tjenesteaar.
+Ingen Oprykning kan finde Sted, naar vedkommende Skolekommission og Kommunalbestyrelse gøre Indsigelse derimod, dog kan vedkommende Lærer indanke Sagen til Skoledirektionens, eventuelt Ministerens, Afgørelse.
+Lov af 23de Maj 1902 om et Tillæg til de i Lov af 24de Marts 1899 om forskellige Forhold vedrørende Folkeskolen § 23 indeholdte Bestemmelser om Tjenestealderberegningen bortfalder.
+ 
+§24.
+Den Lærer eller Lærerinde, som efter nærværende Lovs Bestemmelser vil faa en Lønning, der er lavere end den samlede Lønning, som den paagældende ved Lovens Ikrafttræden oppebærer, beregnet efter de i § 21, tredie Stykke, angivne Regler, faar Forskellen mellem disse Lønninger udbetalt som personligt Tillæg. Det samme gælder med Hensyn til fremtidige Alderstillæg, for saa vidt Læreren ikke har oppebaaret forhøjet Begyndelsesløn eller forhøjet Alderstillæg i Medfør af denne Lov.
+Ved Beregning af Pension bliver det personlige Tillæg kun for saa vidt og paa samme Maade at tage i Betragtning, som de Indtægter, hvorfor det er en Erstatning, efter de hidtil gældende Regler ere komne i Betragtning.
+ 
+§ 25.
+Den et Lærer- eller Lærerindeembede tillagte aarlige Pengelønning vil for Kommunens Vedkommende være at udbetale med 1/12 maanedlig forud. Statens Andel udbetales gennem Skolefonden ved hvert Halvaars Udgang.
+ 
+§ 26.
+Med Indførelsen af stigende Lønninger for Lærer- og Lærerindeembederne i Købstad- og Landkommunerne bortfalde de Lønningsdele, som hidtil have været tillagte Embederne af Staten, Skolefondene og de enkelte Kommuner, samt Skolepenge i Henhold til Lov af 8de Marts 1856 § 11, for saa vidt de ikke i Henhold til nærværende Lovs Bestemmelser fremdeles maatte være Embedet tillagte. Er der ved private Dispositioner eller paa anden lignende Maade tillagt et Embede særlige Indtægter, der ifølge Dispositionens indhold skulle tilfalde vedkommende Lærer som et Tillæg til hans Lønning ud over de Beløb, hvormed denne udbetales af Staten eller Kommunen, blive disse Indtægter fremdeles at bevare for Embedet.
+Har der med et Lærer- eller Lærerindeemhede i en Købstad hidtil været forbundet Bolig, kan denne efter Kommunalbestyrelsens nærmere Bestemmelse fremdeles tillægges en af Lærerne eller Lærerinderne mod en Afkortning i Lønningen med det for Boligens Værdi i Skoleplanen fastsatte Beløb.
+Afløsning af den et Lærerembede tillagte Jordlod og Fourage kan efter Skoledirektionens Indstilling bifaldes af Ministeren, naar Kommunalbestyrelsen og Læreren ere enige om at ønske den. Ligger Jordlodden over 1,000 Alen fra Lærerboligen, og Læreren af den Grund maatte ønske Afløsning, kunne de paagældende Myndigheder dog ikke modsætte sig en saadan ud over et Tidsrum af 5 Aar efter denne Lovs Ikrafttræden.
+Ligesom Indtægterne af Jordlod og Fourage, hvor ingen Afløsning finder Sted, afkortes i Embedets Pengeløn med et aarligt Beløb, der svarer til den i § 21, 3die Stykke, foreskrevne Værdiansættelse, saaledes blive disse Indtægter, naar Afløsning maatte finde Sted, paa samme Maade at godtgøre vedkommende Lærer dog at denne saa vel som Kommunalbestyrelsen er berettiget til at forlange ny Værdiansættelse, saafremt der - paa det Tidspunkt, da Afløsningen er vedtagen eller lovlig begært, er forløbet mindst 5 Aar efter denne Lovs Ikrafttræden.
+Paa samme Maade afkortes de et Lærerembede paa Landet tillagte Indtægter af Højtidsoffer, for saa vidt dette ikke er afløst for bestandig, og af Accidenser, indtil en Afløsning af disse Lønningsdele maatte finde Sted, fra hvilket Tidspunkt den fulde for Embedet bestemte Pengeløn vil være at tillægge det.
+ 
+§27.
+Er en fast ansat Lærer eller Lærerinde paa Grund af Sygdom eller af anden den vedkommende utilregnelig Aarsag ude af Stand til at besørge den ham eller hende paahvilende Undervisning eller Dele af denne, udredes Halvdelen af Vederlaget for den derved nødvendiggjorte Vikartjeneste af Skolefonden, dog saaledes, at det beror paa vedkommende Skoleraads Bestemmelse, om saadant Bidrag skal ydes for et længere Tidsrum end 6 Maaneder af Aaret regnet fra Vikarhjælpens Begyndelse, og om det i hvert enkelt Forhindringstilfælde skal udredes for et mindre Tidsrum end 6 Skoledage.
+ 
+§ 28.
+Lærere og Lærerinder, som have haft fast Ansættelse i det offentlige Skolevæsens Tjeneste i 5 Aar, ere efter deres fyldte 30te Aar berettigede til Pension, naar de faa Afsked paa Grund af en dem utilregnelig Aarsag. Pensionens Størrelse bestemmes af Ministeren i Overensstemmelse med Pensionsloven af 5te Januar 1851 § 3 efter den Tjenestetid, i hvilken den paagældende har været fast ansat, dog saaledes at de Tjenesteaar, der gaa forud for vedkommmende Lærers fyldte 30te Aar, ikke komme i Betragtning.
+Ved Pensionens Fastsættelse beregnes Bolig, med Have og Brændsel med et Beløb, som Ministeren efter Forslag af vedkommende Skoleraad fastsætter for de forskellige Arter af Lærer- og Lærerindeembeder paa Landet som gældende for et Tidsrum af 10 Aar.
+Har en Lærer eller Lærerinde umiddelbart forinden sin faste Ansættelse i et Embede været konstitueret i samme eller i et Embede af lignende Art ved samme Kommunes Skolevæsen, kan Konstitutionstiden efter Ministerens nærmere Bestemmelse medtages saa vel ved Afgørelsen af, om Pensionsretten er indtraadt, som ved Pensionens Beregning.
+Lov af 8de Marts 1856 § 19 om Fastsættelse af Reguleringssummer for Embederne samt den i Medfør af Lov 29de Marts 1567 § 4 gældende Bestemmelse om gifte Lærerinders Udelukkelse fra Pensionsret ophæves.
+Har en Lærer eller Lærerinde i de sidste 5 Aar inden Afskedigelsen delvis - været lønnet efter de hidtil gældende Bestemmelser og delvis efter de i nærværende
+Lov hjemlede, vil Reguleringssummen for Embedet være at lægge til Grund for Beregningen, for saa vidt angaar de Aar, i hvilke den paagældende har været lønnet efter de først nævnte Bestemmelser.
+Enker efter Lærere, der ere pensionsberettigede, erholde i Pension 1/8 af Mandens aarlige Embedsindtægt i de sidste 5 Aar af hans Embedstid, beregnet efter foranstaaende Regler.
+Den en afgaaet Lærer eller Lærerinde eller en Lærerenke tilkommende aarlige Pension udbetales med 1/4 ved Begyndelsen af hvert Fjerdingaars sidste Maaned.
+Den Lærerne i Henhold til Lov af 8de Marts 1856 § 21, jfr. Lov Nr. 58 af 1ste April 1891 paahvilende Enkeforsørgelse bliver at beregne efter den dem til enhver Tid tillagte Pengeløn med Tillæg af en Sum, der svarer til Værdien af de dem i øvrigt tilkommende Lønningsdele. Ministeren træffer de nærmere Bestemmelser om Enkeforsørgelsens Beregning.
+ 
+V.
+Særlige Bestemmelser.
+§ 29.
+Naar der i en Landkommune eller i et til en Købstadkommune hørende Landdistrikt findes Skoler, i hvilke det navnlig med Hensyn til Børnetallet og Tallet af de til Skolen knyttede Lærerkræfter anses for ønskeligt helt eller delvis at indføre de for Købstæderne i Henhold til nærværende Lov gældende Bestemmelser om Klassedeling, Undervisningsfag, ugentligt Timetal og Lærerlønning, skal Ministeren være bemyndiget til efter Indstilling af Kommunalbestyrelsen at fastsætte en hertil sigtende Ordning.
+ 
+§ 30.
+Ved hver kommunal Skole med Købstadskoleordning danner det fast ansatte Lærerpersonale et Lærerraad, for hvilket Overlæreren (Inspektøren, Førstelæreren) er Formand.
+Ministeren fastsætter ved et Regulativ Lærerraadets Forretningsorden og Myndighedsomraade.
+I alle Spørgsmaal vedrørende Undervisningen i den enkelte Skole, saasom om Skolegangsordenen, om Ferier, om Læse- og Timeplanen, om Anskaffelse af ny Læremidler, om Oprykning til en højere Klasse samt i alle Sager om Opførelse af ny Skolebygninger, Omlægning af Skoledistrikter, Oprettelse af ny Lærerembeder i Distriktet, skal Skolekommissionen, forinden den for sit Vedkommende tager Bestemmelse, give vedkommende Lærerraad ved Skolen med Købstadskoleordning eller Lærerpersonalet med fast Ansættelse ved Skolen paa Landet Lejlighed til over for Skolekommissionen at fremsætte og begrunde sin Anskuelse af Sagen. For saa vidt Sagen forelægges for Kommunalbestyrelsen eller overordnede Skolemyndigheder, bliver en skriftlig Erklæring at medsende.
+ 
+§31.
+Paa Finansloven bevilges et Beløb af 3,000 Kr. aarlig, der foruden Rejseudgifter m. m. bliver at tillægge Formanden for Censorerne ved den afsluttende, Prøve for Lærere og Lærerinder i Folkeskolen for at yde Ministeren Medhjælp i Sager vedrørende Folkeskolen.
+ 
+§ 32.
+Den en Lærer eller Lærerinde tilkommende Lønning udredes af vedkommende Kommune, dog saaledes at nedenangivne Lønningsudgifter ville være at udrede af Statskassen gennem Skolefonden i Overensstemmelse med en for hver Skoleraadskreds foretagen aarlig Afregning:
+a) de yderligere Lønningstillæg, som i Henhold til nærværende Lovs § 20 aarlig skulle udbetales til Overlærere for Tjenestetiden efter 8 Aars og til Lærere og Lærerinder for Tjenestetiden efter 10 Aars Ansættelse;
+b) de Lønningstillæg, som i Henhold til § 21, fjerde og femte Stykke, og § 22 aarlig skulle udbetales til Lærere og Lærerinder;
+c) de personlige Lønningstillæg, som skulle udbetales i Henhold til § 23, tredie Stykke, og § 24.
+Det Beløb, hvormed en Lærers Lønning i Henhold til § 20 bliver at nedsætte paa Grund af Formindskelse i det ham paahvilende ugentlige Timetal, vil forholdsmæssig være at afdrage i de Andele af Lønningen, som udredes henholdsvis af Kommunen og af Statskassen. Det Beløb, hvormed en Lærers eller Lærerindes Pengelønning i Henhold til § 20 bliver at nedsætte paa Grund af, at der er tillagt den paagældende Bolig, vil være at afdrage i det Lønningsbeløb, som udredes af Kommunen, og paa samme Maade forholdes med de Beløb, som afdrages i Henhold til § 26 for Jordlod og Fourage, samt for Offer og Aceidenser.
+ 
+§ 33.
+Af Statskassen udredes til Skolefondene et aarligt Tilskud af 200,000 Kroner.
+Af dette Tilskud anvendes forlods det fornødne Beløb til Dækning af Halvdelen af de aarlige Udgifter, der i Medfør af nærværende Lov maatte blive paaførte Kommunerne uden for København til Forrentning og Afbetaling af Laan i Anledning af Opførelsen af ny eller Tilbygning til ældre Skolebygninger, dog at der ikke i noget Aar for en enkelt Skoles Vedkommende kan tilskydes ud over et Beløb, der naar 3 pCt. af 15,000 Kr. Resten af Tilskuddet bliver efter Ministerens Skøn over den tilstedeværende Trang at fordele mellem Fondene som Bidrag til Dækning af disses Udgifter i Henhold til Lov af 8de Marts 1856 § 5 c. og d. til Understøttelse for trængende Kommuner til Ophjælpning af deres Skolevæsen eller til andre under nævnte Lovbestemmelser faldende Formaal.
+Desuden udreder Statskassen Halvdelen at, hvad Fondene hvert Aar - ud over det dem af ovennævnte Sum tillagte Beløb og Fondenes øvrige af Ligning uafhængige Indtægter - anvende til ovennævnte Formaal, samt Halvdelen af den dem aarlig paahvilende Pensionsbyrde.
+Endvidere udreder Statskassen aarlig et Beløb af indtil 45,000 Kr., hvoraf Ministeren fordeler indtil 3,000 Kr. efter Børnetallet til saadanne private Skoler paa Landet, som efter Skolekommissionens Skøn give en Undervisning af mindst lignende Omfang som den offentlige Skole (jfr. § 10) og ikke forberede til nogen som helst særlig Eksamen (almindelig Forberedelseseksamen e. I.) eller ere øvelsesskoler ved Seminarier eller lignende Læreanstalter, samt tillige ikke have større Børnetal til Undervisning for en enkelt Lærer end det for den offentlige Skole fastsatte. Dette Tilskud til den enkelte Skole skal dog være betinget af, at denne i det paagældende Kalenderaar har været søgt af mindst 10 Elever i Gennemsnit, samt af, at vedkommende Kommune yder Bidrag til den. Saadanne Bidrag kunne, naar de ikke overstige 6 Kr. pr. Barn, gives, uden at Kommunalbestyrelsen dertil behøver Amtsraadets Samtykke. En Skoles Børnetal beregnes efter Gennemsnitstallet af undervisningspligtige Børn, som den 1ste i hver Maaned ere optagne i Skolen, og Statens Tilskud til den af dette Beløb maa ikke overstige 6 Kr. aarlig for hvert Barn. Resten af Beløbet, 10,000 Kr., stilles til Ministerens Raadighed, for at han deraf kan støtte saadanne Skoler af nævnte Art, hvis Virksomhed. og Forhold tale derfor.
+De i Lov af 8de Marts 1856 § 7 a. og d., 1ste og 2det Punktum, samt i Lov af 2den Juli 1870 indeholdte Bestemmelser om Statskassens Tilskud til Skolefondene ophæves. Endvidere bortfalde for Fremtiden de Kommunerne hidtil paahvilende Afgifter til Skolefondene i Henhold til kgl. Reskript af 1ste August 1817 § 8, Anordningerne af 29de Juli 1814 for Købstæderne § 54 og for Landet § 63 samt Plakat af 22de Marts 1843 § 5 og 6, jfr. Lov om Udjævning af Hartkornsforskellen af 20de Juni 1850 § 16 og Lov af 8de Marts 1856 § 7, første Punktum.
+ 
+§ 34.
+Til Københavns Kommune, for hvilken af nærværende Lovs øvrige Bestemmelser kun de i § 1, 4de til 6te Stykke, indeholdte Regler ere gældende, udredes af Statskassen som Bidrag til Dækning af Kommunens Udgifter til dens Skolevæsen fra 1ste Januar 1901 at regne, efter at der er vedtaget en af vedkommende Minister billiget Forøgelse af de hidtil gældende københavnske Lærerlønninger, et aarligt Tilskud af 170,000 Kr.
+ 
+§ 35.
+De i nærværende Lov for Købstæderne fastsatte Bestemmelser gælde ogsaa Handelspladserne.
+Denne Lov, der ikke gælder for Færøerne, træder i Kraft den 1ste April 1904.
+Hvorefter alle vedkommende sig have at rette.
+Givet paa Amalienborg, den 29de Marts 1904.
+Under Vor Kongelige Haand og Segl.
+Christian R.
+(L.S.)
+J. C. Christensen.<input type="button" value="Tilbage" class="Button" onclick="history.back()">
+</div>
+
+	</div>
+	</div></div><div class="large-6 medium-6 small-12 column last"><div id="c216738" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix bg-lightgray">
+            <div id="c228496" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix bg-lightgray">
+            <div id="c228497" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Om skolelove</h1></div><p>I denne database kan du finde dokumenter og links til lovgivning på uddannelsesområdet. </p>
+<p>Du har mulighed for at afgrænse din søgning til undervisningsområde, dokumenttype eller dato (udgivelsesår), og det er muligt at skrive søgeord f. eks &quot;folkeskole&quot; eller lignende. </p></div><div id="c228498" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n2"><h3>Undervisningsområde:</h3></div><p>Undervisningsområdet fordelt på fire forskellige hovedområder, hvor lovgivningen får den områder, som den dækker mest. Hvis en lovgivning er om læreres lønninger i folkeskolen, vil den være under &quot;Folkeskolen&quot;, og hvis en lovgivning er om lærerinders eksamen på seminarierne, så er den under &quot;Læreruddannelse&quot;. Hvis en lovgivning ikke klart kan beskrives med et af de fire områder, så kommer den under &quot;Andet&quot;. En lovgivning kan ikke have flere områder i database, men kun et.</p><ul><li>Folkeskolen</li><li>Gymnasieskolen og HF</li><li>Læreruddannelsen</li><li>Pædagoguddannelserne</li><li>Andet</li></ul></div><div id="c228499" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n3"><h3>Dokumenttyper:</h3></div><p>Dokumenttype er afhængigt af om dokumentet er:</p><ul><li> Bekendtgørelser </li><li> Cirkulære </li><li>Hovedlov</li><li> Lov </li><li> Undervisningsvejledning </li><li>Vejledninger</li><li> Andet </li></ul><p>Der findes dokumenttyper, som ikke er på listen, så som &quot;anordninger&quot; m.m., og de vil altid være i &quot;Andet&quot;</p></div><div id="c228501" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n4"><h3>Dato (udgivelsesår):</h3></div><p>Dato afgrænser til det år lovningen er udgivet i, og det er kun muligt at vælge et udgivelsesår ad gangen.</p></div><div id="c228500" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n5"><h3>Søgning:</h3></div><p>Du søger kun i posternes titel (dvs. lovgivningens titel) og i postens tekstfelt, hvis der er noget indhold i det felt. Det er ikke muligt at søge ned i selve lovteksten.</p>
+<p>Søgeresultatet indeholder alle variationer af søgeordet, så hvis der søges på &quot;skole&quot;, så indeholder søgeresultatet &quot;folkeskole&quot;, &quot;folkeskolen&quot;, &quot;friskole&quot; osv. - kort sagt alle ord, som indeholder ordet &quot;skole&quot;</p></div><div id="c228502" class="csc-default" class="csc-default"><div class="csc-header csc-header-n6"><h3>Fejl og mangler:</h3></div><p>Hvis du finder fejl eller, hvis du synes der mangler noget lovgivning eller lignende, så skriv til AU Library Emdrup, eller brug linket i bunden af posten.</p></div>
+        </div>
+    </div>
+</div>
+</div><div class="csc-default" class="csc-default"><div class="divider"><hr></div></div><div id="c216740" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix ">
+            <div id="c216741" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Læs mere:</h2></div><p> om skolelovenes historie, udvikling og betydning for folkeskolen </p></div><div id="c216742" class="csc-default" class="csc-default">
+<a href="http://danmarkshistorien.dk/" class="button  icon-www bg-gray   2" style="width:100%;text-align:left">
+  Danmarks historie
+</a>
+</div><div id="c216744" class="csc-default" class="csc-default">
+<a href="//skolehistorie.au.dk/" class="button  icon-www bg-gray   2" style="width:100%;text-align:left">
+  Skolehistorie
+</a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+</div></div></div></div>
+            </div>
+            <div class="column medium-12 small-12">
+                <div class="au_contentauthor">
+                    <div>Henvendelse om denne sides indhold:&#160;<div class="tx-lfcontactauthor-pi1">
+		<a href="//library.au.dk/om-au-library/kontakt?t3Pageid=23661&amp;t3PageUrl=http%3A%2F%2Flibrary.au.dk%2Fmaterialer%2Fsaersamlinger%2Fskolelove%2F" target="_blank">AU Library</a>
+	</div>
+	<br/>Revideret&#160;26.11.2019</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    
+    
+    <div id="c187651" class="csc-default" class="csc-default"><footer class="global">
+<div id="c183930" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c183933" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c187276" class="csc-default" class="csc-default"><a href="//statsbiblioteket.dk" title="Det Kgl. Bibliotek"><img class="seal" alt="LOGO for Det Kgl. Bibliotek" src="fileadmin/www.bibliotek.au.dk/webressourcer/det-kgl-bibliotek.png" data-pin-nopin="true"></a></div></div><div class="large-6 medium-6 small-12 column last"><div id="c185551" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">AU LIBRARY</h3></div><p>Det Kgl. Bibliotek<br />Victor Albecks Vej 1<br />8000 Aarhus C</p>
+<p>&nbsp;</p><ul><li><a href="spoerg/">Kontakt</a></li><li><a href="http://www.au.dk/om/kontakt">Kort</a></li></ul><p>Tlf: 3347 4747&nbsp;</p></div></div></div></div></div><div class="large-6 medium-6 small-12 column last"><div id="c183936" class="csc-default" class="csc-default"><div class="three row"><div class="large-4 medium-6 small-12 column"><div id="c185555" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">BRUG AU LIBRARY</h3></div><ul><li><a href="bliv-bruger/">Bliv bruger</a></li><li><a href="/">Søg på AU Library</a></li><li><a href="om-au-library/aabningstider/">Åbningstider</a></li><li><a href="laan-og-aflevering/vi-skaffer-det/">Vi skaffer det</a></li></ul></div></div><div class="large-4 medium-6 small-12 column"><div id="c185556" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">ORGANISERING</h3></div><ul><li><a href="om-au-library/au-library-ledelsen/">Ledelse</a></li><li><a href="om-au-library/bibliotekssamarbejde/">Samarbejdsaftale</a></li><li><a href="biblioteker/">Biblioteker</a></li></ul></div></div><div class="large-4 medium-6 small-12 column end"><div id="c185557" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">OM AU LIBRARY</h3></div><ul><li><a href="http:////library.au.dk/laan-og-aflevering/laanereglement/">Lånereglement</a></li><li><a href="http:////library.au.dk/laan-og-aflevering/driftsstatus/">Driftstatus</a></li><li><a href="http:////library.au.dk/nyheder/">Nyheder</a></li></ul></div><div id="c187316" class="csc-default" class="csc-default"><p class="muted">
+                    <br><br>
+                    <a href="http://www.au.dk/om/profil/detteweb/ophavsret/">©</a> —
+                    <a href="http://www.au.dk/om/profil/cookies/">Cookies på au.dk</a>
+                </p></div></div></div></div></div></div></div>
+</footer></div>
+    <div class="page-id row">23661&nbsp;/ i28</div>
+</footer>
+
+<!-- 2011/2014 -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP04DSgKVcqkYGO_Xb4GgqXHMzRO_2jzo" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/apps/react/findwidget/latest/app.js?v=201910031245" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.js?1450276232" type="text/javascript"></script>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+/*TS_inlineFooter*/
+if (typeof pingAnalytics === "function") { pingAnalytics("UA-37553487-1") };var alertCookies = true;
+
+/*]]>*/
+</script>
+
+
+</body>
+</html>

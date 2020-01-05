@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html class="no-js" lang="da" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2019 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="//library.au.dk/">
+
+<title>Skolelove</title>
+<meta name="generator" content="TYPO3 CMS">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_ab51983a13.css?1451983892" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.aucdn.dk/2016/assets/css/app.css" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.aucdn.dk/components/umd/all.css?v=201910031245" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/CssDemo.css?1450276232" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/au_config/css/powermail-overrides.css?1575351186" media="all">
+<link rel="stylesheet" type="text/css" href="https://customer.cludo.com/css/511/2151/cludo-search.min.css" media="all">
+
+
+
+<script src="https://unpkg.com/axios@0.18.0/dist/axios.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/dom4@2.1.3/build/dom4.js" type="text/javascript"></script>
+<script src="https://unpkg.com/es6-shim@0.35.3/es6-shim.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/react@16.6.3/umd/react.production.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/react-dom@16.6.3/umd/react-dom.production.min.js" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/2016/assets/js/vendor.js?v=201910031245" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/2016/assets/js/app.js?v=201910031245" type="text/javascript"></script>
+
+
+
+
+<link href="//cmsdesign.au.dk/design/2008/graphics/favicon.ico" rel="shortcut icon" /><meta content="AU normal contrast" http-equiv="Default-Style" /><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><meta name="google-site-verification" content="ne_jnmhsH3sYzq7Q_ZO7m0NPjedJOMjzZY6OetBV-Cg" /><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="si_pid" content="23661" /><style type="text/css">div.skl_show_header {white-space: pre-line}
+div.skl_show_header div {white-space: normal}
+div.skl_show_header input {display: block}</style><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54962810-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54962810-7');
+</script>
+
+<script src="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aul2016.js?v=4"></script>
+<link rel="stylesheet" type="text/css" href="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aulcsslegacy.css?v=2">
+<link rel="stylesheet" type="text/css" href="https://library.au.dk/fileadmin/www.bibliotek.au.dk/system/aul2016.css?v=4">
+<script>
+$(document).ready(function() {
+if(document.documentElement.lang === 'da') {
+   console.log("0");
+   showFrontpageOpeninghours('DK');
+}
+else {
+   console.log("1");
+   showFrontpageOpeninghours('EN');
+}
+});
+</script>
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0023/4122.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+ 
+<script>
+    var topWarning = false;
+    var topWarningTextDa = '';
+    var topWarningTextEn = '';
+    var cludoDanishPath = '/soegning';
+    var cludoEnglishPath = '/en/site-search';
+    var primaryDanish = true;        
+</script>
+ <script>
+var cludoEngineId = 10727;
+</script><link rel="image_src" href="//www.au.dk/fileadmin/res/facebookapps/au_standard_logo.jpg" /><meta name="uuid" content="de34cb5b-f9e5-4114-9c86-614b83704097"/>
+
+
+<meta http-equiv="Last-Modified" content="2019-11-26T11:29:20+01:00"/>
+<meta http-equiv="content-language" content="da" />
+<meta name="author" content="384071@au.dk" />
+<meta name="rating" content="GENERAL" />
+<meta name="DC.Date" scheme="ISO8601" content="2019-11-26T11:29:20+01:00"/>
+<meta name="DC.Language" scheme="NISOZ39.50" content="da" />
+<meta name="DC.Creator" content="384071@au.dk" />
+<meta name="DC.Contributor" content="131997@au.dk" />
+<meta name="DC.Publisher" content="Aarhus University"/>
+<meta name="DC.Title" content="Skolelove"/>
+<meta name="DC.Type" content="text/html"/>
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+
+<!-- Pingdom hash not set -->
+
+
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/lf_skolelov/skolelov.css">
+
+			<script>
+				function resetForm(){
+
+					document.getElementById("type").selectedIndex = 0;
+					document.getElementById("lawtype").selectedIndex = 0;
+					document.getElementById("date").selectedIndex = 0;
+					document.getElementById("text").value = "";
+				}
+			</script>
+		
+</head>
+<body class="department layout15 level3">
+
+
+
+
+
+
+
+
+
+
+
+    
+            <header>
+    <div class="row section-header no-topmenu">
+        <div class="large-12 medium-12 small-12 columns logo">
+            <a class="main-logo" href="//www.au.dk/" itemprop="url">
+                <object data="//www.aucdn.dk/2016/assets/img/logos.svg#au" type="image/svg+xml" alt="Aarhus University logo / Aarhus Universitets logo"></object>
+            </a>
+            <div class="hide-for-small-only find">
+                <a class="button find-button float-right" type="button" data-toggle="find-dropdown">Find</a>
+                <div class="dropdown-pane bottom " id="find-dropdown" data-dropdown data-hover="false"
+                    data-hover-pane="false" data-close-on-click="true">
+                    <div id="find-container" class="find-container"></div>
+                </div>
+            </div>
+            <div class="search">
+                
+<div class="au_searchbox" id="cludo-search-form" role="search">
+	<form class="au_searchform">
+		<fieldset>
+			<input class="au_searchquery" type="search" value="" name="searchrequest" id="cludo-search-form-input" aria-autocomplete="list"
+			 aria-haspopup="true" aria-label="Indtast søgekriterium" title="Indtast søgekriterium" />
+			<input class="au_searchbox_button" type="submit" title="Søg" value="Søg" />
+		</fieldset>
+	</form>
+</div>
+
+            </div>
+            <div class="language-selector">
+                <p></p>
+            </div>
+            <nav class="utility-links"><div id="c166876" class="csc-default" class="csc-default"><script>
+// Default alphabox med medarbejderservice til utility-box
+AU.alphabox.boxes.push(DEFAULT_util_staffservice_da);
+</script>
+            
+                <ul class="utility resetlist">
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-student" >Til studerende</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-phd" >Til ph.d.er</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="utility-pane-staff" >Til medarbejdere</a></li>
+
+          <!-- STUDENT -->
+<div class="dropdown-pane phd" id="utility-pane-student" data-dropdown data-close-on-click="
+true">
+<h2>Studieportaler</h2>
+<a href="https://studerende.au.dk/studier/fagportaler/jur/" class="button expanded text-left bg-dark-student margin">Jura</a>
+<a href="https://studerende.au.dk/studier/fagportaler/hajur-candmercjur/" class="button expanded text-left bg-dark-student margin">Erhvervsjura</a>
+  
+</div>
+</div>
+<!-- STUDENT END -->
+<!-- PHD -->
+<div class="dropdown-pane phd" id="utility-pane-phd" data-dropdown data-close-on-click="true">
+<h2>Ph.d.-portal</h2>
+<a href="https://law.medarbejdere.au.dk/intranet-for-juridisk-institut/" class="button expanded text-left bg-dark-phd margin">Law</a>
+</div>
+<!-- PHD END -->
+<!-- MEDARBEJDER -->
+<div class="dropdown-pane bottom" id="utility-pane-staff" data-dropdown data-close-on-click="true">
+<h2>Lokal medarbejderportal</h2>
+<a href="https://law.medarbejdere.au.dk/" class="button expanded text-left bg-dark-staff margin">Juridisk Institut</a>
+<div id="au_alphabox_staff_utility"></div>
+</div>
+<!-- MEDARBEJDER END -->         
+                </ul>
+
+
+
+
+</div></nav>
+        </div>
+    </div>
+    
+    <div class="row section-title">
+        <div class=" large-10 medium-10 columns">
+            <h1>
+                <a href="/">AU Library</a>
+            </h1>
+        </div>
+        <div class="large-2 medium-2 small-2 columns seal text-right">
+            
+                <img class="seal show-for-medium" src="//www.aucdn.dk/2016/assets/img/au_segl.svg" alt="Aarhus University Seal / Aarhus Universitets segl" />
+            
+        </div>
+    </div>
+    <div class="row header-menu">
+        <div class="columns medium-12 large-12 small-12 small-order-2">
+            <div class="title-bar align-right" data-responsive-toggle="menu" data-hide-for="medium">
+                <div class="mobile-nav">
+                    <button class="menu-icon" data-toggle></button>
+                </div>
+            </div>
+            <div id="c183845" class="csc-default" class="csc-default"><div class="top-bar custom" id="menu">
+    <div class="top-bar-left">
+        <ul class="menu resetlist">
+            <li style="display:none;" class="directLink">
+                <a href="//library.au.dk">AU Library</a>
+            </li>
+            <li>
+              <a href="//library.au.dk/biblioteker/">Brug biblioteket</a>
+                <div class="top-bar-content">
+                    <div class="row">
+             <div class="column large-3 medium-3 small-12">
+                            <h1>Lån og aflevering</h1>
+                            <ul>
+                              <li><a href="//library.au.dk/laan-og-aflevering/glemt-pinkode/">Glemt pinkode</a></li>  
+                              <li><a href="//library.au.dk/laan-og-aflevering/hente-og-aflevere/">Hent og aflever materialer</a></li>
+                              <li><a href="//library.au.dk/laan-og-aflevering/vi-skaffer-det/">Vi skaffer det</a></li>
+                              <li><a href="//library.au.dk/laan-og-aflevering/">Lån og aflevering</a></li>
+                              <li><a href="//library.au.dk/bliv-bruger">Bliv bruger</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Biblioteker</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/biblioteker/">Biblioteker</a></li>
+                                <li><a href="//library.au.dk/aabningstider/">Åbningstider</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Faciliteter</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faciliteter/laese-studieplads/">Læsepladser</a></li>
+                                <li><a href="//library.au.dk/faciliteter/print-og-kopi/">MyPrint</a></li>
+                                <li><a href="//library.au.dk/faciliteter">Se alle faciliteter</a></li>
+                            </ul>
+                        </div>
+                       
+                        <div class="column large-3 medium-3 small-12">
+                      <h1>Kontakt</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faa-hjaelp-fra-en-bibliotekar/">Få hjælp fra biblioteket</a></li>
+                            </ul>
+                    </div></div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/biblioteker/" class="float-right button arrow">Brug biblioteket</a>
+                          </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/studerende/">Til studerende</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du studerer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faciliteter/grupperum/">Grupperum</a></li>
+                                <li><a href="//library.au.dk/faciliteter/laese-studieplads/">Læsepladser</a></li>
+                                <li><a href="//library.au.dk/studerende/semesterhylder/">Semesterhylder</a></li>
+                                <li><a href="//library.au.dk/faciliteter/print-og-kopi/">MyPrint</a></li>
+                                <li><a href="//library.au.dk/faciliteter/">Alle faciliteter</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du finder litteratur</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/fagsider/">Fagsider</a></li>
+                                <li><a href="//library.au.dk/arrangementer/">Kurser</a></li>
+                                <li><a href="//library.au.dk/laan-og-aflevering/hjemmeadgang/">Hjemmeadgang</a></li>
+                                <li><a href="//library.au.dk/studerende/informationssoegning/">Informationssøgning</a></li>
+                                <li><a href="//library.au.dk/materialer/specialer/">Specialer</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du skriver opgave</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/studerende/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/studerende/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/">Ophavsret og Brug af billeder</a></li>
+                                <li><a href="//library.au.dk/studerende/opgaveskrivning/">Opgaveskrivning</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                      <h1>Brug for hjælp</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/faa-hjaelp-fra-en-bibliotekar/">Spørg AU Library</a></li>
+                                <li><a href="//library.au.dk/biblioteker/">Find bibliotek</a></li>
+                            </ul></div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/studerende/" class="float-right button arrow">Mere til studerende</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/forsker/">Til forskere</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du forsker</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/forskere/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/forskere/ophavsret/">Ophavsret</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Når du publicerer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/publicering/publiceringsstrategi/">Publiceringsstrategi</a></li>
+                                <li><a href="//medarbejdere.au.dk/openaccess/">Open Access</a></li>
+                                <li><a href="//pure.au.dk">PURE registrering</a></li>
+                                <li><a href="//library.au.dk/forskere/forsker-id/">Forsker-ID</a></li>
+                            </ul>
+                        </div>
+                          <div class="column large-3 medium-3 small-12">
+                            <h1>Informationssøgning</h1>
+                            <ul>
+                                    
+                                <li><a href="//library.au.dk/forskere/systematisklitteratursoegning/">Systematisk litteratursøgning</a></li>
+                                <li><a href="//library.au.dk/forskere/systematiskereviews/">Systematiske reviews</a></li>
+                                <li><a href="//library.au.dk/forskere/alerts/">Alerts</a></li>
+                     
+                                      <li><a href="//library.au.dk/forskere/bibliometri/">Bibliometri</a></li>
+                            </ul> 
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                          <h1>Support</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/forskere/kontaktbibliotekar/">Kontaktbibliotekar</a></li>
+                                <li><a href="//library.au.dk/laan-og-aflevering/forslag-til-indkoeb/">Forslag til indkøb</a></li>
+                                
+                            </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/forsker/" class="float-right button arrow">Mere til forskere</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="//library.au.dk/underviser">Til undervisere</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Undervisnings<wbr>materialer</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/fagsider/">Fagsider</a></li>
+                                <li><a href="//library.au.dk/underviser/semesterlitteratur/">Semesterlitteratur</a></li>
+                                <li><a href="//library.au.dk/underviser/ophavsret">Blackboard og ophavsret</a></li>
+                                <li><a href="//library.au.dk/underviser/plagiering/">Plagieringstjek</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Til dine studerende</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/studerende/plagiering/">Undgå plagiering</a></li>
+                                <li><a href="//library.au.dk/studerende/referencehaandtering/">Referencehåndtering</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/billeder/">Brug af billeder</a></li>
+                                <li><a href="//library.au.dk/studerende/ophavsret/traen-din-ophavsret/">Træn din ophavsret</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Undervisning fra AU Library</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/arrangementer/">Se kurser</a></li>
+                                <li><a href="//library.au.dk/arrangementer/bestil-kursus/">Bestil et kursus</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Support</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/laan-og-aflevering/forslag-til-indkoeb/">Forslag til indkøb</a></li>
+                                <li><a href="//library.au.dk/forskere/kontaktbibliotekar/">Kontaktbibliotekar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/underviser/" class="float-right button arrow">Mere til undervisere</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+          <!--  <li style="display:none;">
+                <a href="//www.au.dk/om/">Om AU Library</a>
+                <div class="top-bar-content">
+                    <div class="row">
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Organisering</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/biblioteker/">Biblioteker</a></li>
+                                <li><a href="//library.au.dk/om-au-library/au-library-ledelsen/">Ledelse</a></li>
+                              
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Samarbejde</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/om-au-library/bibliotekssamarbejde/">Det Kgl. Bibliotek</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Find</h1>
+                            <ul>
+                                <li><a href="//au.dk/om/organisation/find-au/bygningskort/">Bygningskort</a></li>
+                                <li><a href="//library.au.dk/om-au-library/personale-i-au-library/">Medarbejdere</a></li>
+                            </ul>
+                        </div>
+                        <div class="column large-3 medium-3 small-12">
+                            <h1>Kontakt</h1>
+                            <ul>
+                                <li><a href="//library.au.dk/om-au-library/kontakt/">Kontakt</a></li>
+                                <li><a href="//library.au.dk/om-au-library/personale-i-au-library/">Telefonliste</a></li>
+                                <li><a href="//library.au.dk/om-au-library/aabningstider/">Åbningstider</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/om-au-library/" class="float-right button arrow">Om AU Library</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            -->
+            <li><a id="DisplayOpeningHours" href="//library.au.dk/aabningstider">Åbningstider</a>
+              <div class="top-bar-content">
+                <div class="column large-3 medium-3 small-12">
+                            <h1>Åbningstider</h1>
+              </div>
+               <div id="openinghours"></div>   
+                   <div class="row" style="width: 100%;">
+                        <div class="column small-12">
+                            <a href="//library.au.dk/om-au-library/aabningstider" class="float-right button arrow">Se alle åbningstider</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div></div><script type="text/javascript" charset="utf-8">
+	//<![CDATA[
+	var selectedUM =100;
+	//]]>
+	 // JavaScript Document
+	 </script>
+        </div>
+    </div>
+    <div id="fade"></div>
+</header>
+        
+
+
+
+
+
+
+<div class="row breadcrumb align-right hide-for-small-only">
+    <div class="columns medium-12">
+        <div id="au_breadcrumb"><span class="breadcrumb-prefix">Du er her:</span>&#160;<a href="//library.au.dk">AU Library</a><span class="icon-bullet_rounded">&#160;</span><a href="materialer/">Materialer</a><span class="icon-bullet_rounded">&#160;</span><a href="materialer/saersamlinger/">Særsamlinger</a><span class="icon-bullet_rounded">&#160;</span><strong>Skolelove</strong></div>
+    </div>
+</div>
+<div class="row">
+    <nav class="small-12 large-3 medium-4 columns medium-only-portrait-4 pagenav left-menu align-top">
+        <h3 class="menu-title"><a href="/">Aarhus University Library</a></h3><ul id="au_section_nav_inner_list"><li class="au_branch"><a href="biblioteker/">Biblioteker</a></li><li class="au_branch"><a href="faciliteter/">Faciliteter</a></li><li class="au_branch"><a href="forskere/">Forsker</a></li><li class="au_branch"><a href="underviser/">Underviser</a></li><li class="au_branch"><a href="studerende/">Studerende</a></li><li class="au_branch"><a href="fagsider/">Fagsider</a></li><li class="au_branch"><a href="laan-og-aflevering/">Lån og aflevering</a></li><li class="au_branch au_selected_branch"><a href="materialer/">Materialer</a><ul><li class="lvl2"><a href="materialer/artikler-og-tidsskrifter/">Artikler og tidsskrifter</a></li><li class="lvl2"><a href="materialer/aviser/">Aviser</a></li><li class="lvl2"><a href="materialer/e-boeger/">Bøger & e-bøger</a></li><li class="lvl2"><a href="materialer/databaser/">Databaser</a></li><li class="lvl2"><a href="materialer/forskningspublikationer/">Forskningspublikationer</a></li><li class="lvl2"><a href="materialer/leksika/">Leksika</a></li><li class="lvl2"><a href="materialer/musik/">Musik</a></li><li class="lvl2"><a href="materialer/ordboeger/">Ordbøger</a></li><li class="lvl2"><a href="materialer/patenter/">Patenter</a></li><li class="lvl2"><a href="materialer/radiotv-og-reklamefilm/">Radio/tv og reklamefilm</a></li><li class="au_branch lvl2"><a href="materialer/specialer/">Specialer</a></li><li class="lvl2"><a href="materialer/standarder/">Standarder</a></li><li class="au_branch au_selected_branch"><a href="materialer/saersamlinger/">Særsamlinger</a><ul><li class="lvl3"><a href="materialer/saersamlinger/georg-brandes-arkivet/">Georg Brandes-arkivet</a></li><li class="lvl3"><a href="materialer/saersamlinger/anskuelsesbillederne/">Anskuelsestavler</a></li><li class="au_branch lvl3"><a href="materialer/saersamlinger/boernebogssamlingen/">Børnebogssamlingen</a></li><li class="au_current lv3"><a href="materialer/saersamlinger/skolelove/">Skolelove</a></li><li class="lvl3"><a href="materialer/saersamlinger/sognekort/">Sognekort</a></li><li class="lvl3"><a href="biblioteker/nymunkegade/stenoarkiv/">Videnskabshistorisk arkiv</a></li><li class="lvl3"><a href="materialer/saersamlinger/statsbibliotekets-specialsamlinger/">Statsbibliotekets specialsamlinger</a></li></ul></li></ul></li><li class="au_branch"><a href="arrangementer/">Kurser og arrangementer</a></li><li><a href="nyheder/">Nyheder</a></li><li class="au_branch"><a href="om-au-library/">Om AU Library</a></li></ul>
+    </nav>
+    <div class="small-12 large-9 medium-8 columns medium-only-portrait-8 content main" id="au_content">
+        <div class="row">
+            <div class="large-12 medium-12 medium-only-portrait-12 small-12 columns">
+                <h1 class="pagetitle">Skolelove</h1>
+                <div id="c216739" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c62764" class="csc-default" class="csc-default"><div class="tx-lfskolelov-pi1">
+		
+<div style="display: none;">Danske skolelove i fuldtekst</div>
+<div class="skl_show_header">
+<div class="skl_show_date">
+                 <div class="skolelov-leftcol">Dato: </div>
+                 <div class="skolelov-rightcol">10-02-1818</div>
+</div>
+<div class="skl_show_nr">
+                 <div class="skolelov-leftcol">Forskriftens nr.: </div>
+                 <div class="skolelov-rightcol">Ikke angivet!</div>
+</div>
+<div class="skl_show_title">
+                 <div class="skolelov-leftcol">Titel: </div>
+                 <div class="skolelov-rightcol">Almindeligt reglement for Skolelærer-Seminarierne i Danmark</div>
+</div>
+<div class="skl_show_links"><div class="skolelov-leftcol">Kan findes som:</div>
+<div class="skolelov-rightcol">  <div class="skl_show_item1">PDF ikke tilgængelig</div>
+  <div class="skl_show_item2">Ingen links til ekstern html side</div>
+  <div class="skl_show_item2">For evt. trykt udgave, <a href="">søg i bibliotekets katalog</a></div>
+</div>
+</div>
+
+<div class="Button">
+<input type="button" value="Tilbage" class="Button" onclick="history.back()">
+</div>
+<h2>Reglement for samtlige skolelærerseminarier 10. februar 1818 </h2>
+
+1STE CAPITEL. ALMINDELIGE BESTEMMELSER. 
+
+
+<b>§. 1.</b> I ethvert Skolelærer-Seminarium bør fornemmeligen drages Omsorg for, at Seminaristens religiøse Følelse vækkes ved Underviisningen, og at den næres og skiærpes ved Naturens Betragtning og ved Bibelens Læsning. Den Sindsstemning, som derved fremkaldes hos ham, bør end videre giøres livlig ved blid Omgang; saa at han, naar han modtager sit Embede, kan tiltræde dette uden overdreven Selvtillid, med Ydmyghed i Sind og Hu, og føle baade Lyst og Evne til at udbrede samme Aand i den ham betroede Kreds, i det han bibringer sine Lærlinge de Kundskaber han selv har indsamlet. 
+
+
+<b>§. 2. </b>Ved Underviisningen i alle Seminarier, bør isærdeleshed sigtes til, at Seminaristen lærer det, han efter sin Bestemmelse behøver at vide, grundigt og practisk, at hans Tænkekraft skiærpes og at han medbringer fra Institutet levende Interesse for alt, hvad han, som Skolelærer, bør vide, samt Lyst og Evne til at uddanne sig videre i sit Fag. 
+
+<b>§. 3. </b>Der bør ligeledes ved alle Seminarier drages Omsorg for, at Seminaristen, med Hensyn til Levemaade og Klædedragt, vænnes til Tarvelighed, saa at han fra Seminariet medbringer usvækket Sands for denne Dyd, og ikke har saadanne Fornødenheder, der maatte overstige hans tilkommende Kaar, og mueligen fierne ham for langt bort fra den Kreds, i hvilken han som Ungdomslærer har at virke. 
+
+2DET CAPITEL. OM DE REGLER, DER SKAL IAGTTAGES VED SEMINARISTERS ANTAGELSE 
+
+
+<b>§. 4. </b>Seminaristernes Antagelse til Underviisning skeer ved ethvert Seminarium af dets Forstander, der havde i denne Henseende at iagttage de Regler, som i det Følgende foreskrives. 
+
+
+<b>§. 5. </b>De Ansøgende maae til den Tid, de skulle begynde Underviisningen ved Seminariet, være over 18 og under 23 Aar. Undtagelse herfra kan ikke tilstaaes uden efter derom særskilt indgiven Ansøgning til Cancelliet. 
+
+
+<b>§. 6.</b> Den, som er værnepligtig, indsender tilligemed sin Ansøgning Attest om, til hvilket Amt, District og Lægd han henhører, tilligemed sin Lægdsseddel; ligesom, ved hvert Aars Session, Seminariets 1ste Lærer udstæder et Beviis for, at han opholder sig ved Seminariet som Lærling. 
+
+
+<b>§ 7. </b>De, som ville optages i noget Skolelærer-Seminarium, maae ikke være behæftede med nogen Sygelighed, der kunde have hyppigt og langvarigt Sygepleie til Følge. Skulde Nogen, ved Ankomsten til Seminariet, befindes at have fordulgt slig Sygelighed, maae han vente at vorde hiemviist. 
+
+
+<b>§. 8. </b>De maae kunne tilstrækkeligen gotgjøre, at have havt de naturlige Kopper, eller og fremlægge Vaccinations-Attest. 
+
+
+<b>§. 9. </b>Ligeledes fremlægges Attester for Skoleflid, Anlæg og Fremgang, samt god moralsk Opførsel, fra Præst, Skolelærer og andre, hvis Forhold til og Forbindelse med dem sætte dem i Stand til derom at kunne og ville vidne; saa at derved tilstrækkeligen godtgiøres, at de ikke allene ved Udgang fra Skolen og Antagelse til Confirmation have giort ualmindelig god Fremgang i det, som efter Anordningerne af 29de Julii 1814 forlanges af Confirmantere; men at de ogsaa, fra Confirmationen til Antagelsen ved Seminariet, have søgt og benyttet enhver dem given Leilighed til, saavel at vedligeholde som at udvide de i Skolen erhvervede Kundskaber, og fremfor alt til at uddanne og befæste deres Moralitet, saa at de ogsaa ved deres gode Exempel kunde ventes at ville virke gavnligen paa den Ungdom, der i Tiden maatte betroes dem. 
+
+
+<b>§. 10. </b>For den Betaling, de i deres Underviisningstid have paa nogle Seminarier at erlægge for Kost, Logis, Vask og deslige, som ikke gives dem frit paa Seminarierne, ligesom og for det, de, efter følgende §. 14, have at betale, naar de i Utide forlade Stiftelsen, eller ikke kunne udholde Dimissions-Examen, stille de lovformelig Selvskyldnercaution. 
+
+
+<b>§. 11. </b>De, hvis Opholdssted og øvrige Leilighed tillader det, indfinde sig personligen hos Seminariets Forstander, medbringe de ovenanførte Attester, Caution og Døbe-Attest, og underkaste sig en foreløbig Prøve i Religions-Kundskab og Bibelhistorie, Bog- og Skriftlæsning, Skrivning og Retskrivning, Regning, Fatte- og Tænksomheds Evne, Anlæg til Sang og Musik, samt i hvilken som helst andre for Landalmue-Læreren nyttige Kundskaber, de sige sig at være underviste i. De, som boe uden for den Provinds, hvori Seminariet ligger, kunde i det Sted indstille sig hos Amtsprovsten i det Amtsprovstie, hvori de boe, for af ham at prøves i alle de foranførte Kundskaber. Amtsprovsten giver dem da, under Haand og Seigl, en Attest om den afholdte Prøves Udfald, hvilken maae følge tilligemed de øvrige ovenanførte Attester, samt deres i Amtsprovstens Overværelse af dem selv stilede og skrevne Ansøgning til Seminariets Forstander, om Antagelse til Underviisning ved Seminariet. 
+
+
+<b>§. 12. </b>Blandt de Ansøgende vælger Seminariets Forstander de fortrinligste, saavel med Hensyn til Kundskaber, som Sædelighed, til at besætte de ved Seminariet ledig blivende Pladser, og, under for resten lige Omstændigheder, giver han dem Fortrin, der ere af Landalmueklassen eller ere Skolelæreres Sønner. Skulde der for et enkelt Aar ikke saa mange af de Ansøgende kunde ansees antagelige, som der blive ledige Pladser, da kunne saamange desflere over det for ethvert Seminarium bestemte Antal Elever antages næste Gang, naar nye Elever antages. 
+
+
+<b>§. 13. </b>Ansøgning om at antages til Oplærelse ved et Seminarium maae være skeet saa betimelig, at dets Forstander kan have bestemt sit Valg og communiceret Vedkommende det, i det seneste 4 Uger før den til Afgang og Tilgang ved Seminariet bestemte Tid. 
+
+<b>§ 14. </b>Det første Underviisningsaar er at ansee som Prøve-Aar; de, som da med Sikkerhed kunne forudsees ikke at kunne naae Maalet i den befalede Tid, bortvises. Skulde nogen Seminarist i de paafølgende 2de Aar, enten ved at anvende mindre Flid end i det første, eller ved usædelig og reglementstridig Opførsel, skuffe den om ham fattede gode Forventning, da bortvises han uden Attest, og maa da betale i Erstatning til Seminariet 30 Rbdlr. S.V. for hvert halv Aar, han, efter første Prøveaar, har nydt Underviisning. Enhver saadan Bortviisning skeer af Seminariets Direction, efter motiveret Indstilling af dets Forstander. Det tillades ikke, at nogen Seminaristes Underviisningstid forlænges over de befalede tre Aar, med mindre Sygdom, under hans Ophold paa Seminariet, skulde for en længere Tid have sat ham ud af Stand til at deeltage i Underviisningen; dog haver Forstanderen i dette Tilfælde først at indhente Directionens Samtykke. 
+Skulde nogen Seminarist ved Dimissions-Examen erholde saa ringe Characteer, at han ikke kan ansees som brugbar til Ungdomslærer, da maae han erlægge 100 Rbdlr. S.V. i Erstatning til Seminariet. 
+
+3DIE CAPITEL. OM UNDERVIISNINGSGJENSTANDENE OG DEN GRAD AF KUNDSKAB I DEM, HVORTIL ENHVER SEMINARIST BØR HAVE BRAGT DET, FØREND HAN KAN ANSEES DUELIG TIL SIN BESTEMMELSE 
+
+<b>§. 15. </b>I Religionen bør Seminaristen have erholdet: 
+a. tydelig, grundig, sammenhængende og paa Hiertet anvendt Kundskab om den evangelisk christelige Religions Sandheder efter de authoriserede Lærebøger. 
+b. nøie Bekiendtskab med selve Religionslærebøgerne, saa ta han tilbørligen kan udvikle og forklare deres Udtryk og Mening. 
+c. Han maae derhos forstaae fornuftigen at benytte Bibelens Læsning og aandelige Psalmer, til Lærdommenes Befæstelse og Bestyrkelse i Gudsfrygt. 
+
+d. Af Bibelhistorie maae han kiende og i et tydeligt og velordnet Foredrag kunne fortælle om de vigtigste Begivenheder og Personer i den aabenbarede Bibelens Religions Historie; især bør hans Kundskab være fuldstændig om Jesu Levnet og Taler samt om hans Apostlers Handlinger og Taler til den første Christelige Kirkes Stiftelse; han maa vide, rigtigen at anvende Exempler af Bibelens Historie, som Opmuntring til Dyd og Advarsel mod Udyd, og kunne i Bibelen selv opsøge og deraf øse disse Kundskaber. 
+
+<b>§ 16. </b>I Modersmaalet bør Seminaristen være bragt til: 
+a. at læse Skrivt og Tryk færdigen, med tydelig Articulation og reen Talestemme, samt med et til Indholdet af det Læste passende Udtryk og Tonebøining. 
+b. at skrive en regelmæssig, simpel, tydelig og tillige for Øiet smuk Haandskrift, saavel med danske som latinske Bogstaver. 
+
+c. at kjende Modersmaalets Sproglære saaledes, at han forstaaer og færdigen kan anvende dens Regler ved at opsætte sine Tanker skriftligen, uden Feil imod Retskrivningens, deels i Sproget grundede, deels af gode danske Skribentere vedtagne, Regler, og det i et, efter Tankefølgen velordnet, i Udtrykkene og Sprogvendingerne tydeligt, ukonstlet og til Emnets Indhold passende, Foredrag. 
+
+<b>§. 17. </b>Af Naturvidenskaberne bør Seminaristen have saamegen Kundskab 
+a. om Verdensbygningen og om Himmellegemerne, samt om Jordklodens Figur, Bevægelse og Størrelse, at han i almeenfattelige Udtryk kan forklare og beskueliggiøre det, som ethvert fornuftigt Menneske kan og bør vide herom, til at fatte en rigtig Forestilling om de ved disse fremkommende Phænomener og disses Anvendelse paa Tidsbestemmelsen, samt til en fornuftig, Sjelen opløftende, Tilbedelse af Skaberens ubegrænsede Magt, Viisdom og Godhed. 
+Hvor Omstændighederne tillade det, maae der ogsaa ved Seminariet gives Underviisning i Naturhistorie og Naturlære. 
+b. Ved Underviisningen i Naturhistorien, hvor denne Underviisning gives, bør der sørges for, at Seminaristen kan faae en tydelig og efter System ordnet Kundskab om de mærkeligste Naturlegemer af alle Naturriger, især om de indenlandske, saa at han med tydelige og sprogrigtige Udtryk og Benævnelser kan angive deres bestemte Særkiende, og i en god Orden fremsætte deres øvrige Beskaffenheder paa en beskuelig Maade; han maae, saavidt mueligt, især i Plantelæren, kunne i selve Naturen kiende de vigtigste indenlandske Planter og forstaae at anvende et System til at bestemme disse. 
+Af Zoologien bør Seminaristen da fornemmelig lære de vigtigste især indenlandske Huusdyrs Naturhistorie, ligesom han ogsaa bør vide, hvilke de fortrinligste Arter af disse ere, hvorledes de kunne forædles, og hvorledes de skulle behandles, saavel i deres sunde som syge Tilstand, samt paa hvilke Maader, Menneskene kunne fordelagtigst benytte dem. 
+Derhos maae han vide, hvorledes de vigtigste Kunstproducter, især saadanne, som anvendes i Landmandens daglige Liv, erholdes og frembringes af disse Naturlegemer ved de forskiellige Haandteringer. 
+
+c. Formaalet for Underviisningen i Naturlæren, hvor denne gives, bør være at bibringe Seminaristen en tydelig, paa Erfaring og Forsøg bygget, Kundskab om Naturens almindelige Love, Kræfter og Virkninger, og sætte ham i Stand til at kunne paa en fornuftig Maade anvende dem i Landmandens daglige Livs Sysler, samt til, som et fornuftigt Menneske, at betragte de indtreffende Naturbegivenheder. Dog skal Kundskab i de 2de under b. og c. anførte Underviisningsgienstande ikke fordres hos Seminaristen, som en Nødvendighed, men han, uden samme, naar han for resten fortiener det, have Adgang til bedste Characteer med Udmærkelse. 
+
+<b>§. 18. </b>Af Mathematiken maae Seminaristen: 
+a. i practisk Regning have bragt det saavidt, at han ved en rigtig og tydelig Kundskab om Tallenes Egenskaber i Almindelighed og Titalsystemets i Særdeleshed, samt om Maals og Vægts og Pengenes indbyrdes Forhold, kan saavel, uden Hjelp af skrevne Taltegn, med Færdighed og Sikkerhed beregne de mindre vanskelige Opgaver, deels til Brug ved det daglige Livs Handel og Foretagender, deels til en desto færdigere og sikrere Regning med Taltegn; som ogsaa ved Regning paa Tavlen efter rigtige, med Fornuften fattede, Regler, hurtigt og sikkert udregne de vanskeligere i Regnebøgerne forekommende Opgaver indtil Vexelregning; 
+
+b. Af den lavere (eller elementare) Arithmetik og Geometrie bør han i en mathematisk Orden og Methode kunne giøre Rede for de i samme indeholdte Sandheder og deres Anvendelse paa de i det daglige Liv forekommende Beregninger, og saadanne Udmaalinger af Linier, Flader og Legemer, som, uden kunstige Instrumenter, kan foretages med en til Hensigten tilstrækkelig Nøiagtighed. 
+
+<b>§. 19. </b>I Historie og Geographie bør Seminaristen være bragt saavidt, at han 
+a. af den almindelige Verdenshistorie har en tydelig og efter Tidsfølgen ordnet Oversigt over mærkværdige Personer, Begivenheder og Opfindelser. Han bør derhos kiende Religionens, især den christelige Religions, Historie, saa at han kan giøre Rede for de vigtigste Personer og Tildragelser, der væsentligen have bidraget til den christelige Religions og Kirkes forskiellige Tilstand i de forskiellige Tidsaldere. 
+b. Fædrenelandets Historie bør han paa samme Maade kiende, men fuldstændigere, for at indgyde Agtelse for Forfædrenes Fortienester, Erkiendelse af de Goder, man skylder sit Fødeland, dets mange velgjørende Indretninger, dets Regenteres vise og faderlige Foranstaltninger, og derved bestyrke den naturlige Fødelandskærlighed og Troskab mod Kongen. 
+c. Af den almindelige Geographie bør Seminaristen kiende Jordklodens vigtigste nuværende Lande og Stater, deres Størrelse, Folkemængde, Beliggenhed og Grændser, physiske Beskaffenhed, Natur- og Kunst-Producter, politiske Inddeling, Religion og Regieringsform, samt deres, ved Størrelse eller i anden Henseende, saasom Handel, Fabrikvæsen og deslige, mere mærkværdige Steder.
+
+d. I Fædrenelandets Geographie bør hans Kundskab om alt det, ved den almindelige Geographie ovenfor anførte, være udførligere, og i denne saavelsom den almindelige grundet paa een med Indbildningskraften fattet, saa levende Forestilling om Landkortet, at han maae være i Stand til, uden dette, at bestemme og forestille sig Landenes, Stædernes, Flodernes og Biergenes Beliggenhed paa Jordkloden.
+
+<b>§. 20. </b>Seminaristen bør, saafrem han tillige skal ansees duelig til at forestaae Kirkesangen, kunne:
+a. synge med sikker og reen Intonation alle de i den anordnede Choralbog indeholdte Kirkemelodier, og, om mueligt, den til samme anførte Bas og Mellemstemme, samt paa samme Maade Melodier til gode Folkesange.
+b. Vil han tillige attraae, at kunne ansættes til Organist-Tjeneste i de Kirker, hvor der findes Orgel, da maae han ved de Seminarier, hvor dertil gives Leilighed, have lært saameget af Harmonilæren at han, med Færdighed og i en reen Sats, kan spille Choralmelodierne efter beziffret Bas firestemmig, og ledsage dem med en simpel men passende Indledning og Slutning. 
+
+c. Udi den øvrige Instrumental-Musik maae enhver Seminarist, paa de Seminarier, hvortil dertil gives Leilighed, have bragt det saavidt, at han paa et eller andet Instrument kan i reen og tydelig Intonation og ordentlig Takt spille Kirkemelodier og gode Folkesange; især bør den, der mangler naturligt Anlæg til Sang, bringes saavidt, at han paa et eller andet Stryge- eller Taste-Instrument har opnaaet den anførte Færdighed, for at han i Skolen kan, ved Hielp af samme, veilede og styre Børnenes Synge-Øvelser. 
+
+<b>§. 21. </b>Med Hensyn til Underviisnings- og Opdragelseslæren bør Seminaristen være bragt saavidt, at han ved en populær Anthropologie i pædagogisk Hensyn 
+a. har faaet tydelig Kundskab om det menneskelige Legemes Bygning, samt om dets forskiellige Organers Bestemmelse til og Indflydelse aa det Heles Vedligeholdelse ved de forskjellige Livsforretninger, saasom Aandedrag, Blodets Omløb, Fordøielsen, Afsondringen, m.m., for heraf at indsee Grunden til de almindelige Regler for Legemets physiske Udvikling, Sundhedens Vedligeholdelse og en fornuftig Omgang med samme, saavel i den sunde, som i den syge, Tilstand. 
+b. At han kjender de i den menneskelige Sjel nedlagte intellectuelle og moralske Evner og Anlæg, deres Beskaffenhed og Vigtighed, samt deres ved Underviisning og Opdragelse harmoniske Udvikling og Øvelse. 
+c. Han maae kjende og af den anførte Kundskab om Mennesket kunne forklare de almindelige Regler for de forskjellige Underviisningsmaader, disse sidstes Beskaffenhed, Vigtighed og forskiellige Brugbarhed ved Lærlinge af forskiellig Aands-Udvikling; ligesom han ogsaa maae kjende den bedste Methode ved Underviisningen i ethvert Fag især med en Samling af Lærlinge, hvorved de alle bringes i den korteste Tid saa nær mueligt til al Underviisnings- og Opdragelses Hovedformaal: en sund Sjel i et sundt Legeme. 
+
+d. maae han i Særdeleshed ved practisk Prøve med Børn tilstrækkeligen godtgjøre, at han har en, saavel ved naturligt Anlæg som ved Øvelse erlanget, uundværlig Færdighed i at anvende disse Regler. 
+
+<b>§. 22. </b>Gymnastiken bør læres saavel med Hensyn til at befordre det menneskelige Legemes Sundhed, dets physiske Krafts fuldkomnere Udvikling og Hærdelse, som til en hensigtsmæssig Forberedelse til at give Landalmuesmanden den Legems Holding, Smidighed og saadanne Legemsfærdigheder, der giøre ham skikket til, med Lyst og Duelighed og Mod, at opfylde sin tilkommende Bestemmelse som Værge for Fædrenelandet. Heri maae Seminaristen altsaa besidde 
+a. saa megen theoretisk Kundskab, at han kan tydeligen fremsætte saavel Hensigten med Gymnastik i Almindelighed, som dens Indflydelse paa Menneskedannelsen, saavel den umiddelbare paa Legemet, som den middelbare ved Legemet paa Sielen, som og hvorledes enhver være sig naturligt eller dertil indrettet kunstig Legemsøvelse i Særdeleshed tjener til at opnaae dette Maal, samt hvilke Øvelser dertil passe for de forskiellige Aldere og Kiøn, i hvad Orden, paa hvad Maade, og med hvilke Forsigtighedsregler, enhver Øvelse bør foretages for at naae det med samme tilsigtede Maal, uden Fare og Skade for Lærlingens Lemmer og Helbred. 
+b. han maae derhos, saavidt mueligt, selv have bragt det i Legemsfærdighed dertil, at han kan forevise Børnene, og give dem et beskueligt Begreb om de Legems-Øvelser, han vil lære dem og øve dem i at udføre. 
+
+c. maae han forstaae, practisk ved Underviisningen at anvende de theoretiske Regler; og besidde den fornødne Leilighed til at styre Øvelserne, og Opmærksomhed til at opdage og rette Feilene ved Udførelsen af disse med en Samling af Børn. 
+
+
+<b>§. 23. </b>Udi Kundskab om Landhuusholdningen bør Seminaristen være bragt saavidt, at han i Haugedyrkningen veed saavel theoretisk som practisk de almindeligste Regler og Haandgreb ved en Urte- og Frugt-Hauges Anlæg og Cultur; at han for Jordbruget kjender de vigtigste Grundsætninger, og forstaaer efter disse at vælge den fordeelagtigste Drift for den ham tildeelte Jordlod; ogsaa om Biernes Natur, Huusholdning og Pleie bør han have Kundskab, samt practisk Øvelse i deres og deres Producters Behandling. 
+
+
+<b>§. 24. </b>Paa de Seminarier, hvor der gives Leilighed til at skaffe Seminaristen Underviisning i Haandgjerning, uden Forsømmelse for de ovenanførte Underviisningsgienstande, bør der, ved Valget blnadt flere af disse Haandgjerninger, ikke saa meget tages Hensyn til den ellers tilladelige Indtægts-Kilde, derved mueligen kunne aabnes for Skolelæreren selv, ved Afsætningen af saadanne af ham uden Forsømmelse for hans Kalds Forretninger i hans Fritimer forfærdigede Arbeider, som meget mere til saadanne, der kunne sigte til, uden meget Værktøi eller stor Arbeidsplads, at forfærdige af de paa Landet let overkommelige Materialer saadant i enhver Landboehuusholdning nyttigt Huusgeraad, som ellers maatte anskaffes for Penge, saasom Kurve af Vidier og Halm, Biekuber, Sæller, Skeer, Træskoe, m.m.; heller ikke bør det, i Tilfælde af, at baade Tiden og Leiligheden ved et Seminarium skulde tillade at kunne foretage flere af slige hensigtssvarende Haandgjerninger, som hellere at bibringe Seminaristen de første Grundsætninger og Haandgreb i flere saadanne, hvilke han siden i sit tilkommende Kald kunde ved Øvelse bringe til større Fuldkommenhed, alt eftersom der maatte bydes ham Leilighed til at gavne med den ene eller anden af disse Haandgjerninger. 
+
+
+<b>§. 25. </b>Ved de Seminarier, hvortil dertil gives Leilighed, maae der ogsaa undervises i Tegning, fornemmeligen for de Seminarister, som attraae at blive ansatte ved Kjøbstedskoler. (§. 17.) 
+
+<b>§. 26. </b>Uagtet de i foregaaende §§. (15-25) nævnte Kundskaber og Færdigheder alle ansees nyttige for den vordende Skolelærer; saa bør dog samtlige Seminariers Foresatte og Lærere uafladeligen have for Øine, at det er Religions-Kundskab, Modersmaal, Skrivning og Regning samt Øvelse i at undervise, hvorpaa det ved Seminaristernes Dannelse fornemmeligen kommer an. 
+
+4DE CAPITEL. OM DET FORHOLD AF TID, SOM IGIENNEM SEMINARISTENS 3DE LÆREAAR BØR VED UNDERVIISNINGEN ANVENDES PAA DE FORSKIELLIGE UNDERVIISNINGS-GIENSTANDE. 
+
+
+<b>§. 27. </b>Uagtet det maae overlades til Forstanderen for ethvert særskilt Seminarium, eller i fornødent Tilfælde til Directionen for samme, efter indgivet Forslag fra Forstanderen, at bestemme Timernes og Underviisningsgienstandenes Fordeling iblandt de ved samme ansatte Lærere, efter ethvert Seminariums locale Beskaffenhed og Lærernes Kundskaber i de forskiellige Underviisnings-Fag, samt deres øvrige Embedsforretninger udenfor Seminariet; ligesom det Ovenanførte ogsaa vil have Indflydelse paa at bestemme deels Ordenen, hvori de forskiellige Underviisningsfag kunne følge paa hinanden, deels om og hvorvidt de kunne bibringes ved Siden af eller efter hinanden, deels paa hvilken Classe-Inddeling for ethvert Seminarium der vilde være meest hensigtspassende, saa ansees det dog tienligt til Eksempel at angive det meest hensigtssvarende Forhold mellem de Timer, der anvendes til Underviisning af Lærerne ved Foredrag, Examination og practiske Øvelser i ethvert Underviisnings-Fag med Seminaristen i hans hele Underviisningstid, med Hensyn deels til Fagets Vigtighed for hans tilkommende Bestemmelse, deels til dets Vanskelighed, deels til det, som i ethvert Fag kan og bør overlades til Seminaristens private Flid og Øvelse udenfor Underviisningstimerne, deels til de Forkundskaber, man i Almindelighed kan antage at Seminaristen medbringer i samme. 
+
+<b>§. 28. </b>Seminaristens Underviisningstid af Lærerne ansættes til 6 Dage ugentlig (Søndagen bestemmes for ham til at bivaane den offentlige Gudstjeneste og til private forfriskende Sysler) og til 7 Timer daglig; der bliver altsaa 42 Timer ugentlig til Underviisning af Lærerne og til practiske Øvelser under deres Tilsyn og Veiledning. 
+
+De øvrige Timer af Dagen udenfor den egentlige Underviisningstid anvendes af Seminaristen til Repetition, Forberedelse til Underviings-Timer, skriftlige Udarbeidelser, private practiske Øvelser i de Fag, som kræve mekaniske Færdigheder, saasom Skiønskrift, Sang, Musik, Haugedyrkning, Haandarbeider, o.s.v. 
+
+<b>§. 29. </b>Ved Fordelingen af Timerne til hvert Underviisningsfag og Affattelsen af Lectionsplanen og Timetabeller for hvert Seminarium især, haver dets Forstander saavidt mueligt at paasee, at den ovenanførte, til Seminaristernes Underviisning af Lærerne fastsatte, Tid, 42 Timer ugentlig, fordeles igjennem deres hele Underviisnings-Tid til de i 3die Capitel anførte Underviisningsfag, saaledes, at naar der 
+til Religionen (§. 15) anvendes 7 Timer 
+da anvendes 
+til Modersmaalet (§. 16) 6 Timer 
+til Naturkyndighed (§. 17) i det Tilfælde at der undervises i Naturhistorie og Naturlære 5 Timer 
+til Mathematik (§. 18) 6 Timer 
+til Historie og Geographie (§. 19) 3 Timer 
+til Musik (§. 20) 5 Timer 
+til Underviisnings- og Opdragelseslære (§. 21) 5 Timer 
+til Gymnastik (§. 22) 3 Timer 
+til Landhuusholdning og Haandarbeide (§§. 23 og 24) 2 Timer 
+
+Hvor der ikke undervises i Naturhistorie og Naturlære, kunde nogle af de, til Underviisning i Naturkyndigheden bestemte, Timer, tages fra denne og fordeles paa de øvrige Fag. 
+
+
+<b>§. 30. </b>Ved de Seminarier, hvor der undervises i Tegning, bør denne Underviisning gives udenfor de bestemte ugentlige Underviisningstimer. 
+
+<b>§. 31. </b>Uagtet den i §. 29. indeholdte Time-Fordeling er ikkun fremsat, som Eksempel paa, hvad der ansees for meest hensigtssvarende, hvorfra der imidlertid kunne skee Afvigelser grundede paa særdeles Omstændigheder, saa kan dog betydelig Afvigelse fra det der bestemte Forhold af den Tid, der bør anvendes til Lærernes Underviisning i de forskiellige Fag, ikke finde Sted uden særskilt Tilladelse, igjennem Seminariets Direction eller Forstander, fra det danske Cancellie. 
+
+5TE CAPITEL. OM SEMINARISTERS PRØVE VED DERES AFGANG FRA SEMINARIERNE, SAMT FOREGAAENDE AARLIGE EXAMEN. 
+
+
+<b>§. 32. </b>Ved ethvert Seminarium holdes 2de Examina: a) en aarlig, hvilken bliver at foretage paa den Maade som er bestemt i §§ 35 til 48, begge iberegnede, og afholdes i de i §. 33. anførte Fag, som enten med samtlige Seminarister eller enkelte Klasser ifølge de forskjellige locale Indretninger (§. 27) ere fuldstændigen foredragne og tilendebragte. b) een endelig Afgangs-Examen, der skal holdes i Directeurernes personlige Overværelse, hvori Dimittenden enten prøves i alle de udi §. 33. anførte Fag, og hans Dimissions-Characteer meddeles i Overeensstemmelse med hvad i §. 49 til 54, begge iberegnede, er bestemt; hvorved tillige skal tages Hensyn, saavel paa de Characterer, Dimittenden forhen har erholdt ved de aarlige Examina, som og paa de Vidnesbyrd, Forstanderen og Lærerne meddele ham for Opførsel og Flid i den hele Tid, han har nydt Underviisning ved Seminariet. 
+
+<b>§. 33. </b>Seminaristen skal, forinden han stædes til Dimissions-Examen, have aflagt Prøve i ethvert af de i 3die Capitel som nødvendige anførte Underviisningsfag, og derved bevise, hvorvidt han i hvert især har bragt det til den i bemeldte Capitel bestemte Grad af Kundskab. 
+Han prøves derfor i ethvert Fag, og tildeles, under særskilte Rubriker, Characteer for 1) Religions-Kundskab, 2) Bibelens Religions-Historie, 3) Boglæsning, 4) Smukskrift, 5) Dansk Grammatik, 6) Dansk Still og Retskrivning, 7) Kundskab om Verdensbygningen, 8) Regning uden skrevne Taltegn, 9) Tavleregning, 10) Geometrie, 11) Almindelig Verdens- og den nyere Religionshistorie, 12) Fædrelandets Historie, 13) Geographie, 14) Sang, 15) Orgelspil og Instrumentalmusik, 16) Populair Anthropologie i pædagogisk Hensyn og Methodelære, 17) Catechisation og andre practiske Prøver paa at undervise Børn, 18) Gymnastik, 19) Landhuusholdning. 
+
+Hvis Seminaristen har nydt Underviisning i Naturhistorie, Naturlære eller Tegning, og vil underkaste sig Examen i een eller flere af disse Gjenstande, da erholder han derom særskilt Vidnesbyrd paa den Dimissions-Attest, som meddeles ham; hvorimod der, ved Bestemmelsen af den Hovedcharacteer, der tildeles ham, ikke tages Hensyn til, om han har underkastet sig Prøve i bemeldte trende Fag, eller til en saadan Prøves Udfald. 
+
+
+<b>§. 34. </b>Charactererne, som tildeles Seminaristen i enhver af de ovenanførte Rubriker, bliver en af følgende: Udmærket godt, Meget godt, Godt, Temmelig godt, Maadeligt. 
+
+
+<b>§. 35. </b>Ved Prøven i Religions-Kundskab, Bibelens Religionshistorie (Naturhistorie, og Naturlære, hvor den i disse 2de Fag finder Sted), Kundskab om Himmellegemerne og Verdensbygningen, Geometrie, almindelig Verdens- og nyere Religionshistorie, populair Anthropologie i pædagogisk Hensyn og Methodelære, opsætter Læreren i disse Fag et Schema, hvorefter alle de af dem, enten efter trykt Lærebog eller skriftligt Foredrag gjennemgaaede Sandheder i den af ham fulgte Orden, fra den første til den sidste, ere med vedtegnet Nummer inddeelte i saa store Afdelinger, at enhver af dem kan give tilstrækkeligt Stof til at prøve Seminaristens Kundskaber; et lige Antal sammenrullede Nummere lægges paa det Bord, hvorved Censorerne sidde, for hvilket Seminaristen fremstaar, og udtager selv det Nummer, der anviser i det omtalte Schema den Materie, hvori han skal examineres. 
+
+
+<b>§. 36. </b>Til Boglæsning opslaaes i Bibelen et Stykke af historisk og et af poetisk eller prophetisk Indhold, ligeledes oplæses et Stykke i bunden Stiil, f. Ex. en Psalme. 
+
+
+<b>§. 37. </b>Som Prøve i Smukskrift fremlægges en Prøve-Skrivebog, pagineret og forseglet, hvori Seminaristen hver anden Uge i hans tvende sidste Underviisningsaar, har indført een latinsk og een dansk Forskrift af Sammenskrift, Bogstaver og Tal, der hver Gang er ved Dato paategnet og characteriseret af Læreren i Skrivning; og hvorved tillige sees paa et for Almuesbørn passende Valg af Emner til Forskrifterne. 
+
+
+<b>§. 38. </b>I Dansk Grammatik examineres og saaledes at samme anvendes paa de ved Boglæsningen oplæste Stykker, saavidt de dertil paa forskiellig Maade give Anledning. 
+
+
+<b>§. 39. </b>Til Prøve paa Seminaristens Fremgang i dansk Stiil og Retskrivning indrettes for hver Seminarist en pagineret og forseglet Stilebog, hvori indføres, urettede, alle de Retskrivnings- og Stileøvelser, som under hans hele Underviisningstid ere ham opgivne af Læreren, der i samme udmærker Feilerne med Rødkridt eller paa anden passende Maade, samt hver Gang ved Dato paategner og characteriserer Udarbeidelsen. Ligeledes opsættes til Slutning, ved Seminaristens Afgang, af Lærerne adskillige for Seminaristernes Kundskabs Omfang passende Emner, der ikke i deres Underviisningstid forhen have været opgivne, af disse udtager han ved Lodkastning eet eller tvende, af hvilke han, under een af Lærernes specielle Opsigt, udarbeider det eene og indfører det i den ovennævnte Stilebog. 
+
+
+<b>§. 40. </b>Som Prøve i Regning uden skrevne Taltegn opgives Seminaristen i det mindste tvende af de i det daglige Livs Handel og Haandteringer forekommende Opgaver, der indeholde en geometrisk Proportion, ved hvilke han mundtligen forklarer den Methode, han ved Beregningen af samme følger, angiver sit Facit, og tillige giør Rede for, paa hvilke andre Maader, det kunde have været udregnet. 
+
+
+<b>§. 41. </b>For at prøve Seminaristens Fremgang i Tavleregning, hvortil hører saavel Kundskab om de practiske Methoder til at beregne alle i det daglige Liv forekommende Opgaver, som Færdighed og Sikkerhed i at udregne dem, samt Øvelse i at opgive passende Exempler paa ethvert Regnings-Tilfælde, opskrives de vigtigste af de i det daglige Liv forekommende Opgaver, fra den saakaldte Kjederegel og Reses Regel af, efter en eller anden practisk Regnebog; af disse udtrækker enhver Seminarist, som skal prøves, i det mindste 4 Sedler, og opsætter da strax skriftlig, uden noget Hielpemiddel og under Censorernes Tilsyn, et Eksempel paa hvert af de i disse Sedler indeholdte Regnings Tilfælde; hvorefter han igjen udtrækker andre Sedler, og udregner enten de af de andre Seminarister derpaa opgivne, eller et af Læreren paa samme Regnings-Tilfælde opgivet Eksempel. 
+
+<b>§. 42. </b>Ved Prøven i Sang fremlægges Nummer paa alle de i den anordnede Choralbog forekommende Psalme-Melodier, hvoraf Seminaristen udtrækker sig i det mindste tvende, hvilke han strax afsynger med en dertil passende Text af Psalmebogen. 
+
+Derhos bør han paa samme Maade aflægge Prøve paa at synge Basstemmen efter Choralbogen til i det mindste 20 af de meest brugte Kirkemelodier, samt at afsynge et lige Antal Melodier til Folkesange, og ledsage samme med Bas eller harmonerende Mellemstemmer. 
+
+
+<b>§. 43. </b>Med Prøven i Orgelspil eller anden Instrumentalmusik forholdes paa samme Maade som med Sangen. 
+
+
+<b>§. 44. </b>Ved den catechetiske Prøve over den christelige Religions Sandheder bør Seminaristen bevise, at han, a) er nøie bekiendt med ethvert Stykke i de authoriserede Religions-Lærebøger, samt veed hvorledes dets Indhold bør planmæssig udvikles, bevises, oplyses og anvendes for Børn, og b) at han besidder Gaver til med en rigtig Methode at underviise Ungdommen. Til den Ende bør der ved den catechetiske Prøve: a. forelægges Seminaristen ved Nummertrækning 2 à 3 Stykker af Lærebogen og Catechismus, hvilke han efter en kort Betænkningstid mundtlig giennemgaaer for Censorerne med en planmæssig Disposition, der bør indeholde de Begrebers og Sætningers Udvikling, de Bevisers Førelse, de oplysende Exempler især af Bibelhistorien, den Hoved-Sandhedens Anvendelse, o.s.v., som udkræves, naar Stykket skal tilbørligen giennemgaaes med Børnene. b. Fremlægger han for Censorerne en i hans sidste Underviisningsaar ført skriftlig catechetisk Dispositions-Bog, hvori findes, urettede, indført en Deel af ham forfattede Dispositioner over Stykker af Lærebogen, Catechismus, bibelske og andre moralske Fortællinger, og tilsidst c. en Disposition, han under strængt Opsyn af Lærerne har forfattet over det Stykke, der atter ved Nummertrækning er ham opgivet til ved den catechetiske Prøve at gjennemgaae med Børnene for Censorerne; hvorpaa han giennemgaaer med de tilstedeværende Børn det ham ved Nummetrækning opgivne Stykke, desuden et Par Begreber, eller Sætninger, til særskilte Forstandsøvelser, samt et Par Hovedregnings-Stykker, alt til Prøve paa hans Underviisningsgaver og Methode. 
+
+
+<b>§. 45. </b>Prøven i Gymnastik foretages deels theoretisk paa samme Maade, som ved i de §. 35 anførte Fag, saa at Seminaristen maae giøre Rede for den ham ved Nummertrækning tilfaldne Legems-Øvelses Hensigt, Udøvelsesmaade og Forsigheds-Regler ved samme; deels practisk med Seminaristen slev; deels undersøges hans Færdighed i at underviise flere samlede i Legemsøvelser, ved god Commando og hurtigt Blik til at opdage og rette de af Eleverne begaaede Feil. 
+
+
+<b>§. 46. </b>Prøven i Landhuusholdning foretages, især naar Seminaristen har en til Underviisning i dette Fag, særskilt lønnet Lærer, deels theoretisk, ved mundtlig Examination paa den ved de i §. 35 anførte Underviisningsfag bestemte Maade; deels maae Seminaristen, paa afskaarne Qviste vise, at han kiender, og kan udøve de forskiellige Haandgreb til Træers Forædling; ligesom ogsaa den Flid og det Held, hvormed han har benyttet den Leilighed, der i hans hele Underviisnings-Tid paa Seminariet har været for ham til at udøve dette Fag practisk, bør komme i megen Betragtning ved Characterens Bestemmelse for denne Rubrik. Ogsaa forevises Prøver af de af Seminaristen forfærdigede Haandarbeider, hvortil han paa Seminariet er bleven anviist. 
+
+
+<b>§. 47. </b>For at Censorerne kunne bedømme Seminaristens Anlæg til og Færdighed i Tegning, ifald han er bleven underviist deri og ønsker at erholde Vidnesbyrd om sin Duelighed i denne Henseende, fremlægges Prøver af de af ham tegnede Stykker. 
+
+
+<b>§. 48. </b>Censorer ved denne Examen ere samtlige Seminariets faste Lærere, der først hver for sig tildele Seminaristen for hver Rubrik en af de i §. 34 anførte specielle Characterer. Efter fuldendt Examen holde disse en Censur i Samling, hvorved den Characteer, som Seminaristen faaer for hver Rubrik, afgjøres ved fleste Stemmer. I Tilfælde at Stemmerne skulde være lige, bliver den Characteer, hvortil Forstanderens Dom nærmest passer, den gjeldende. 
+
+
+<b>§. 49. </b>Ved Dimissions-Examen iagttages ligeledes de i §§. 35 til 47 anførte Regler for specielle Characterers Bestemmelse, og af disse saaledes bestemte specielle Characterer udledes den Hovedcharacteer, hvormed Seminaristen dimitteres fra Seminariet (med Undtagelse af Characterer for Naturhistorie, Naturlære og Tegning), der tildeles ham i et af de trende Udtryk: Meget duelig, Duelig, Beqvem; dog kan de første Characteer i enkelte Tilfælde forhøies til Udmærket duelig. 
+
+<b>§. 50. </b>Til Characteren Udmærket duelig udfordres, at Seminaristen ikke i nogen Rubrik har Temmelig godt; desuden maae han i det mindste for mere, end Halvparten af de samtlige Rubriker, have eensstemmigen faaet Udmærket godt, og for mere end Halvparten af de øvrige eensstemmigen Meget godt. 
+
+Iblandt de Rubriker, hvorfor han har faaet Udmærket godt, maae de for Religion, Bibelhistorie, dansk Stiil, Smukskrivning, Regning uden skrevne Taltegn, Tavleregning og Catechisation nødvendigen være indbefattede. 
+
+
+<b>§. 51. </b>Til Characteren Meget duelig udfordres i det mindste, at Seminaristen ikke har i nogen Rubrik Characteren Maadelig; samt at han har i mere, end Halvparten af Rubrikerne Meget godt, hvoriblandt de for Religion, Bibelhistorie, Dansk Stiil, Smukskrivning, Regning uden skrevne Taltegn, Tavleregning og Catechisation maae findes, samt for mere end Halvparten af de øvrige: Godt. 
+
+
+<b>§. 52. </b>Til Characteren Duelig udfordres i det mindste, at Seminaristen ikke i 6 Rubriker har Temmelig godt, eller Maadeligt, hvoriblandt dog de for Religion, Bibelhistorie, Dansk Stiil, Smukskrivning, Regning uden skrevne Taltegn, Tavleregning og Catechisation ikke maae findes. 
+
+
+<b>§. 53. </b>Den Seminarist, der, efter de i §§. 50-52 bestemte Regler, ikke kan tildeles nogen af de i samme anførte Characterer, erholder den ringeste Hovedcharacteer: Beqvem; men skulde nogen Seminarist i Rubrikerne for Religion, Bibelhistorie og Catechisation ikke kunne ved Examen tilkiendes høiere, end Characteren Maadelig; da kan han ikke ansees som brugbar til Ungdomslærer, og kan ingen Dimissions-Attest erholde fra Seminariet. 
+
+
+<b>§. 54. </b>Naar Seminaristens Hovedcharacterer saaledes ere blevne endeligen bestemte, indføres de i Seminariets Characteerprotocol, og underskrives af Directionen; og derefter udfærdiges af Seminariets Forstander in fidem protocolli, under hans Haand og Seigl, Seminaristens Dimissions-Attest paa dertil almindelig authoriserede trykte Blanqvetter, hvor den ham tildeelte Hovedcharacteer udtrykkelig indføres; og da Seminaristens Bestemmelse kan blive deels Skolelærer allene, deels tillige Forsanger i Kirken, deels paa sine Steder Organist; saa maa Blanqvetten til Dimissions-Attesten indrettes saaledes, at deri særskilt benævnes: hvorvidt han er skikket til sidstnævnte Forretninger, hvilket udtrykkes med kan ikke forestaae, kan forestaae, kan godt forestaae, kan meget godt forestaae Sangen eller Orgelspillet, eller begge Dele i Kirken, alt efter Seminaristernes forskiellige Duelighed. Ligeledes anføres særskilt i Dimissions-Attesten, hvad Udfald Seminaristens Prøve i Naturhistorie, Naturlære eller Tegning har havt, i Fald har har underkastet sig Prøve i disse Underviisningsfag. 
+
+<b>§. 55. </b>Uagtet den i §. 32. Litr. a. omhandlede aarlige Examen kan foretages og Censuren affattes af Seminariets Lærere uden Directionens Overværelse, saa skal dog dets Forstander betimeligen tilmelde dets Direction, paa hvilke Dage og Timer, denne Examen holdes, for at den, eller de af dens Medlemmer, som fandt det forgodt, kunde overvære samme. 
+
+6TE CAPITEL. OM TILSYNET MED SEMINARIERNE OG DE VED SAMME ANSATTE EMBEDSMÆNDS PLIGTER OG FORHOLD TIL HINANDEN 
+
+
+<b>§. 56. </b>Ved ethvert Seminarium er første Lærer tillige Seminariets Forstander, og som saadan ansvarlig for, at Seminariet stedse paa bedste Maade opfylder sin Bestemmelser. 
+
+
+<b>§. 57. </b>Forstanderen har Ret til at ordne det Indvortes i Seminariet, og af de øvrige Lærere at fordre udført hvad han finder tienligt at anordne, saalænge det ikke strider mod de for Seminariet gieldende Anordninger, eller den for samme approberede Plan. 
+
+
+<b>§. 58. </b>Ethvert Seminarium forbliver som hidtil under sin forordnede Directions Overopsyn. 
+&lt;font size="2" face="Arial"&gt;&lt;/font&gt;
+
+
+<input type="button" value="Tilbage" class="Button" onclick="history.back()">
+</div>
+
+	</div>
+	</div></div><div class="large-6 medium-6 small-12 column last"><div id="c216738" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix bg-lightgray">
+            <div id="c228496" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix bg-lightgray">
+            <div id="c228497" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Om skolelove</h1></div><p>I denne database kan du finde dokumenter og links til lovgivning på uddannelsesområdet. </p>
+<p>Du har mulighed for at afgrænse din søgning til undervisningsområde, dokumenttype eller dato (udgivelsesår), og det er muligt at skrive søgeord f. eks &quot;folkeskole&quot; eller lignende. </p></div><div id="c228498" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n2"><h3>Undervisningsområde:</h3></div><p>Undervisningsområdet fordelt på fire forskellige hovedområder, hvor lovgivningen får den områder, som den dækker mest. Hvis en lovgivning er om læreres lønninger i folkeskolen, vil den være under &quot;Folkeskolen&quot;, og hvis en lovgivning er om lærerinders eksamen på seminarierne, så er den under &quot;Læreruddannelse&quot;. Hvis en lovgivning ikke klart kan beskrives med et af de fire områder, så kommer den under &quot;Andet&quot;. En lovgivning kan ikke have flere områder i database, men kun et.</p><ul><li>Folkeskolen</li><li>Gymnasieskolen og HF</li><li>Læreruddannelsen</li><li>Pædagoguddannelserne</li><li>Andet</li></ul></div><div id="c228499" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n3"><h3>Dokumenttyper:</h3></div><p>Dokumenttype er afhængigt af om dokumentet er:</p><ul><li> Bekendtgørelser </li><li> Cirkulære </li><li>Hovedlov</li><li> Lov </li><li> Undervisningsvejledning </li><li>Vejledninger</li><li> Andet </li></ul><p>Der findes dokumenttyper, som ikke er på listen, så som &quot;anordninger&quot; m.m., og de vil altid være i &quot;Andet&quot;</p></div><div id="c228501" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n4"><h3>Dato (udgivelsesår):</h3></div><p>Dato afgrænser til det år lovningen er udgivet i, og det er kun muligt at vælge et udgivelsesår ad gangen.</p></div><div id="c228500" class="csc-frame au_collapsible au_collapsed" class="csc-frame au_collapsible au_collapsed"><div class="csc-header csc-header-n5"><h3>Søgning:</h3></div><p>Du søger kun i posternes titel (dvs. lovgivningens titel) og i postens tekstfelt, hvis der er noget indhold i det felt. Det er ikke muligt at søge ned i selve lovteksten.</p>
+<p>Søgeresultatet indeholder alle variationer af søgeordet, så hvis der søges på &quot;skole&quot;, så indeholder søgeresultatet &quot;folkeskole&quot;, &quot;folkeskolen&quot;, &quot;friskole&quot; osv. - kort sagt alle ord, som indeholder ordet &quot;skole&quot;</p></div><div id="c228502" class="csc-default" class="csc-default"><div class="csc-header csc-header-n6"><h3>Fejl og mangler:</h3></div><p>Hvis du finder fejl eller, hvis du synes der mangler noget lovgivning eller lignende, så skriv til AU Library Emdrup, eller brug linket i bunden af posten.</p></div>
+        </div>
+    </div>
+</div>
+</div><div class="csc-default" class="csc-default"><div class="divider"><hr></div></div><div id="c216740" class="csc-default" class="csc-default"><div class="row neutral-container 
+">
+    <div class="large-12 columns">
+        <div class="clearfix ">
+            <div id="c216741" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Læs mere:</h2></div><p> om skolelovenes historie, udvikling og betydning for folkeskolen </p></div><div id="c216742" class="csc-default" class="csc-default">
+<a href="http://danmarkshistorien.dk/" class="button  icon-www bg-gray   2" style="width:100%;text-align:left">
+  Danmarks historie
+</a>
+</div><div id="c216744" class="csc-default" class="csc-default">
+<a href="//skolehistorie.au.dk/" class="button  icon-www bg-gray   2" style="width:100%;text-align:left">
+  Skolehistorie
+</a>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+</div></div></div></div>
+            </div>
+            <div class="column medium-12 small-12">
+                <div class="au_contentauthor">
+                    <div>Henvendelse om denne sides indhold:&#160;<div class="tx-lfcontactauthor-pi1">
+		<a href="//library.au.dk/om-au-library/kontakt?t3Pageid=23661&amp;t3PageUrl=http%3A%2F%2Flibrary.au.dk%2Fmaterialer%2Fsaersamlinger%2Fskolelove%2F" target="_blank">AU Library</a>
+	</div>
+	<br/>Revideret&#160;26.11.2019</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    
+    
+    <div id="c187651" class="csc-default" class="csc-default"><footer class="global">
+<div id="c183930" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c183933" class="csc-default" class="csc-default"><div class="two row"><div class="large-6 medium-6 small-12 column"><div id="c187276" class="csc-default" class="csc-default"><a href="//statsbiblioteket.dk" title="Det Kgl. Bibliotek"><img class="seal" alt="LOGO for Det Kgl. Bibliotek" src="fileadmin/www.bibliotek.au.dk/webressourcer/det-kgl-bibliotek.png" data-pin-nopin="true"></a></div></div><div class="large-6 medium-6 small-12 column last"><div id="c185551" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">AU LIBRARY</h3></div><p>Det Kgl. Bibliotek<br />Victor Albecks Vej 1<br />8000 Aarhus C</p>
+<p>&nbsp;</p><ul><li><a href="spoerg/">Kontakt</a></li><li><a href="http://www.au.dk/om/kontakt">Kort</a></li></ul><p>Tlf: 3347 4747&nbsp;</p></div></div></div></div></div><div class="large-6 medium-6 small-12 column last"><div id="c183936" class="csc-default" class="csc-default"><div class="three row"><div class="large-4 medium-6 small-12 column"><div id="c185555" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">BRUG AU LIBRARY</h3></div><ul><li><a href="bliv-bruger/">Bliv bruger</a></li><li><a href="/">Søg på AU Library</a></li><li><a href="om-au-library/aabningstider/">Åbningstider</a></li><li><a href="laan-og-aflevering/vi-skaffer-det/">Vi skaffer det</a></li></ul></div></div><div class="large-4 medium-6 small-12 column"><div id="c185556" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">ORGANISERING</h3></div><ul><li><a href="om-au-library/au-library-ledelsen/">Ledelse</a></li><li><a href="om-au-library/bibliotekssamarbejde/">Samarbejdsaftale</a></li><li><a href="biblioteker/">Biblioteker</a></li></ul></div></div><div class="large-4 medium-6 small-12 column end"><div id="c185557" class="csc-default" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">OM AU LIBRARY</h3></div><ul><li><a href="http:////library.au.dk/laan-og-aflevering/laanereglement/">Lånereglement</a></li><li><a href="http:////library.au.dk/laan-og-aflevering/driftsstatus/">Driftstatus</a></li><li><a href="http:////library.au.dk/nyheder/">Nyheder</a></li></ul></div><div id="c187316" class="csc-default" class="csc-default"><p class="muted">
+                    <br><br>
+                    <a href="http://www.au.dk/om/profil/detteweb/ophavsret/">©</a> —
+                    <a href="http://www.au.dk/om/profil/cookies/">Cookies på au.dk</a>
+                </p></div></div></div></div></div></div></div>
+</footer></div>
+    <div class="page-id row">23661&nbsp;/ i28</div>
+</footer>
+
+<!-- 2011/2014 -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP04DSgKVcqkYGO_Xb4GgqXHMzRO_2jzo" type="text/javascript"></script>
+<script src="https://www.aucdn.dk/apps/react/findwidget/latest/app.js?v=201910031245" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.js?1450276232" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.js?1450276232" type="text/javascript"></script>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+/*TS_inlineFooter*/
+if (typeof pingAnalytics === "function") { pingAnalytics("UA-37553487-1") };var alertCookies = true;
+
+/*]]>*/
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577733245190.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2812383466",
+    "id" : "D8EDA98D",
+    "lastKnownWriteTime" : 1578074703,
+    "last_content_update" : 1578074703,
+    "path" : "~/Desktop/Danish_School_Laws_data_set/Script_DSL.R",
+    "project_path" : "Script_DSL.R",
+    "properties" : {
+        "cursorPosition" : "18,29",
+        "scrollLine" : "11"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
